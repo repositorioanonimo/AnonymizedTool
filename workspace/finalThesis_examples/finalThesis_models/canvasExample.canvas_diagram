@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:canvas="http://www.kybele.es/projects/elastic/models/canvas/0.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_QQkNoPVyEemz28D0p5P2Ag" type="Canvas" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zJlo0PZgEemHq-FDL-54zA" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJneAPZgEemHq-FDL-54zA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_zKSMYPZgEemHq-FDL-54zA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zKSMZPZgEemHq-FDL-54zA" type="5001"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zKSMYfZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zKSMYvZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyPartnersAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zKSMY_ZgEemHq-FDL-54zA" x="3"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zKSMZfZgEemHq-FDL-54zA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zKSMafZgEemHq-FDL-54zA" type="5001"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zKSMZvZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zKSMZ_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyPartnersAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zKSMaPZgEemHq-FDL-54zA" x="3" y="57"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zKSMavZgEemHq-FDL-54zA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zKSMbvZgEemHq-FDL-54zA" type="5001"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zKSMa_ZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zKSMbPZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyPartnersAnnotations.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zKSMbfZgEemHq-FDL-54zA" x="3" y="120"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosIPZgEemHq-FDL-54zA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_zLRq4PZgEemHq-FDL-54zA" type="3002">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLRq5PZgEemHq-FDL-54zA" type="5002"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLRq4fZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLRq4vZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyActivitiesAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLRq4_ZgEemHq-FDL-54zA" x="3"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zLRq5fZgEemHq-FDL-54zA" type="3002">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLSR8PZgEemHq-FDL-54zA" type="5002"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLRq5vZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLRq5_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyActivitiesAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLRq6PZgEemHq-FDL-54zA" x="3" y="57"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zLSR8fZgEemHq-FDL-54zA" type="3002">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLSR9fZgEemHq-FDL-54zA" type="5002"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLSR8vZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLSR8_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyActivitiesAnnotations.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLSR9PZgEemHq-FDL-54zA" x="3" y="113"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosIfZgEemHq-FDL-54zA" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_zLgUYPZgEemHq-FDL-54zA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLgUZPZgEemHq-FDL-54zA" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLgUYfZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLgUYvZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyResourcesAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLgUY_ZgEemHq-FDL-54zA" x="2"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zLgUZfZgEemHq-FDL-54zA" type="3003">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLgUafZgEemHq-FDL-54zA" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLgUZvZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLgUZ_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasKeyResourcesAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLgUaPZgEemHq-FDL-54zA" x="2" y="56"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosIvZgEemHq-FDL-54zA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_OoKCwK2qEeynfefS0oo4uQ" type="3004">
+        <children xmi:type="notation:DecorationNode" xmi:id="_OoKCxK2qEeynfefS0oo4uQ" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_OoKCwa2qEeynfefS0oo4uQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_OoKCwq2qEeynfefS0oo4uQ" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasValuePropositionsAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OoKCw62qEeynfefS0oo4uQ" x="2"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosI_ZgEemHq-FDL-54zA" type="7005">
+      <children xmi:type="notation:Node" xmi:id="_OoKCxa2qEeynfefS0oo4uQ" type="3005">
+        <children xmi:type="notation:DecorationNode" xmi:id="_OoKCya2qEeynfefS0oo4uQ" type="5005"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_OoKCxq2qEeynfefS0oo4uQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_OoKCx62qEeynfefS0oo4uQ" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasCustomerRelationshipsAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OoKCyK2qEeynfefS0oo4uQ" x="1"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosJPZgEemHq-FDL-54zA" type="7006">
+      <children xmi:type="notation:Node" xmi:id="_zLvk8PZgEemHq-FDL-54zA" type="3006">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLvk9PZgEemHq-FDL-54zA" type="5006"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLvk8fZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLvk8vZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasChannelsAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLvk8_ZgEemHq-FDL-54zA" x="7"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zLwMAPZgEemHq-FDL-54zA" type="3006">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLwMBPZgEemHq-FDL-54zA" type="5006"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLwMAfZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLwMAvZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasChannelsAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLwMA_ZgEemHq-FDL-54zA" x="7" y="56"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zLwMBfZgEemHq-FDL-54zA" type="3006">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zLwMCfZgEemHq-FDL-54zA" type="5006"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLwMBvZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zLwMB_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasChannelsAnnotations.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLwMCPZgEemHq-FDL-54zA" x="7" y="112"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosJfZgEemHq-FDL-54zA" type="7007">
+      <children xmi:type="notation:Node" xmi:id="_OoKCyq2qEeynfefS0oo4uQ" type="3007">
+        <children xmi:type="notation:DecorationNode" xmi:id="_OoKCzq2qEeynfefS0oo4uQ" type="5007"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_OoKCy62qEeynfefS0oo4uQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_OoKCzK2qEeynfefS0oo4uQ" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasCustomerSegmentsAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OoKCza2qEeynfefS0oo4uQ" x="7"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosJvZgEemHq-FDL-54zA" type="7008">
+      <children xmi:type="notation:Node" xmi:id="_zL7LIPZgEemHq-FDL-54zA" type="3008">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zL7LJPZgEemHq-FDL-54zA" type="5008"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zL7LIfZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zL7LIvZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasCostStructureAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zL7LI_ZgEemHq-FDL-54zA" x="5" y="3"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zL7LJfZgEemHq-FDL-54zA" type="3008">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zL7LKfZgEemHq-FDL-54zA" type="5008"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zL7LJvZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zL7LJ_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasCostStructureAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zL7LKPZgEemHq-FDL-54zA" x="136" y="3"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zL7LKvZgEemHq-FDL-54zA" type="3008">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zL7LLvZgEemHq-FDL-54zA" type="5008"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zL7LK_ZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zL7LLPZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasCostStructureAnnotations.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zL7LLfZgEemHq-FDL-54zA" x="360" y="3"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zJosJ_ZgEemHq-FDL-54zA" type="7009">
+      <children xmi:type="notation:Node" xmi:id="_zMCf4PZgEemHq-FDL-54zA" type="3009">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zMCf5PZgEemHq-FDL-54zA" type="5009"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zMCf4fZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zMCf4vZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasRevenueStreamsAnnotations.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMCf4_ZgEemHq-FDL-54zA" x="7" y="3"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zMCf5fZgEemHq-FDL-54zA" type="3009">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zMDG8PZgEemHq-FDL-54zA" type="5009"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zMCf5vZgEemHq-FDL-54zA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_zMCf5_ZgEemHq-FDL-54zA" fontName="Segoe UI"/>
+        <element xmi:type="canvas:CanvasAnnotation" href="canvasExample.canvas#//@canvasDiagram/@hasRevenueStreamsAnnotations.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMCf6PZgEemHq-FDL-54zA" x="167" y="3"/>
+      </children>
+    </children>
+    <element xmi:type="canvas:CanvasDiagram" href="canvasExample.canvas#//@canvasDiagram"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJlo0fZgEemHq-FDL-54zA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_QQkNofVyEemz28D0p5P2Ag"/>
+  <element xmi:type="canvas:CanvasBusinessModel" href="canvasExample.canvas#/"/>
+</notation:Diagram>

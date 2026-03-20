@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;e3value2canvas.etl&apos; to &apos;prueba/src/prueba.views&apos;&#x0D;&#x0A;- Original project: &apos;transformations.e3value2canvas&apos;&#x0D;&#x0A;- Destination element: &apos;prueba/src/prueba.views&apos;&#x0D;&#x0A;- Original element: &apos;e3value2canvas.etl&apos;" description="Copy file" destination="=prueba/src&lt;prueba.views" element1="e3value2canvas.etl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1613045014669" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,48 @@
+[2021-01-26 13:29:34] Executing startup tasks
+[2021-01-26 13:29:34] Java(TM) SE Runtime Environment 11.0.9+7-LTS
+[2021-01-26 13:29:34] Product self.product.version
+[2021-01-26 13:29:34] Workspace C:\Users\Francisco Javier\Desktop\Desarrollo INNoVaServ\3_INNoVaServ_2021\Desarrollo\eclipse\runtime-New_configuration
+[2021-01-26 13:29:34] Bundle org.eclipse.oomph.setup 1.18.0.v20200820-0414, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-01-26 13:29:34] Bundle org.eclipse.oomph.setup.core 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-01-26 13:29:34] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-01-26 13:29:34] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.height = 11.692913385826772
+[2021-01-26 13:29:34] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.width = 8.267716535433072
+[2021-01-26 13:29:34] Performing Preference /instance/org.eclipse.epsilon.emf.dt/metamodels = \transformations.traceMetamodel\traceModel.ecore
+[2021-01-26 13:29:34] Performing Preference /instance/org.eclipse.epsilon.ewl.emf/wizards.extension.preference = 
+[2021-01-26 13:29:34] 
+[2021-02-15 15:58:30] Executing startup tasks
+[2021-02-15 15:58:30] Java(TM) SE Runtime Environment 11.0.9+7-LTS
+[2021-02-15 15:58:30] Product self.product.version
+[2021-02-15 15:58:30] Workspace C:\Users\Francisco Javier\Desktop\Desarrollo INNoVaServ\3_INNoVaServ_2021\Desarrollo\eclipse\runtime-New_configuration
+[2021-02-15 15:58:30] Bundle org.eclipse.oomph.setup 1.18.0.v20200820-0414, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 15:58:30] Bundle org.eclipse.oomph.setup.core 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 15:58:30] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-15 15:58:30] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.height = 11.692913385826772
+[2021-02-15 15:58:30] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.width = 8.267716535433072
+[2021-02-15 15:58:30] Performing Preference /instance/org.eclipse.epsilon.emf.dt/metamodels = \transformations.traceMetamodel\traceModel.ecore
+[2021-02-15 15:58:30] Performing Preference /instance/org.eclipse.epsilon.ewl.emf/wizards.extension.preference = 
+[2021-02-15 15:58:30] 
+[2021-02-18 12:21:49] Executing startup tasks
+[2021-02-18 12:21:49] Java(TM) SE Runtime Environment 11.0.9+7-LTS
+[2021-02-18 12:21:49] Product self.product.version
+[2021-02-18 12:21:49] Workspace C:\Users\Francisco Javier\Desktop\Desarrollo INNoVaServ\3_INNoVaServ_2021\Desarrollo\eclipse\runtime-New_configuration
+[2021-02-18 12:21:49] Bundle org.eclipse.oomph.setup 1.18.0.v20200820-0414, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:21:49] Bundle org.eclipse.oomph.setup.core 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:21:49] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:21:49] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.height = 11.692913385826772
+[2021-02-18 12:21:49] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.width = 8.267716535433072
+[2021-02-18 12:21:49] Performing Preference /instance/org.eclipse.epsilon.emf.dt/metamodels = \transformations.traceMetamodel\traceModel.ecore
+[2021-02-18 12:21:49] Performing Preference /instance/org.eclipse.epsilon.ewl.emf/wizards.extension.preference = 
+[2021-02-18 12:21:49] 
+[2021-02-18 12:23:59] Executing startup tasks
+[2021-02-18 12:23:59] Java(TM) SE Runtime Environment 11.0.9+7-LTS
+[2021-02-18 12:23:59] Product self.product.version
+[2021-02-18 12:23:59] Workspace C:\Users\Francisco Javier\Desktop\Desarrollo INNoVaServ\3_INNoVaServ_2021\Desarrollo\eclipse\runtime-New_configuration
+[2021-02-18 12:23:59] Bundle org.eclipse.oomph.setup 1.18.0.v20200820-0414, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:23:59] Bundle org.eclipse.oomph.setup.core 1.18.0.v20200624-1156, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:23:59] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=4919, branch=f78238ba11ce04fb6bb89f0cb98f4dd759377d1d
+[2021-02-18 12:24:00] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.height = 11.692913385826772
+[2021-02-18 12:24:00] Performing Preference /instance/es.kybele.elastic.models.canvas.diagram/print.page.width = 8.267716535433072
+[2021-02-18 12:24:00] Performing Preference /instance/org.eclipse.epsilon.emf.dt/metamodels = \transformations.traceMetamodel\traceModel.ecore
+[2021-02-18 12:24:00] Performing Preference /instance/org.eclipse.epsilon.ewl.emf/wizards.extension.preference = 
+[2021-02-18 12:24:00] 

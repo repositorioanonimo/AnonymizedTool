@@ -1,0 +1,71 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: J8G2tAjYQ2fqE2SPXTPHxvSbQJXzA
+ Z2h8HYjkGpgTc8=
+SHA-256-Digest-Manifest: hi2Z0UBfrqy6e5w/G2EOfYk24sxWN3d0SX9pOQFYEB8=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: about.properties
+SHA-256-Digest: IaAE50coIJ88pzbe+5o2gEKpTKjKzs8CLE+aqBwbF78=
+
+Name: plugin_customization.ini
+SHA-256-Digest: UnQDGjanxEnXRpHlt6rJ78Jjvq0opykadHZAHGJ/8kU=
+
+Name: about.html
+SHA-256-Digest: CLPBwuGGd87ncwFcy1yuXHxb4IoVLHBzrlP8ReflHc0=
+
+Name: plugin.xml
+SHA-256-Digest: JeKM8AcCZcNZ8wGn1nzWPWVWEQpXCxREqNYUz3Wu3H4=
+
+Name: eclipse32@2x.png
+SHA-256-Digest: ZcJT80Sko8UpLtEaqiOQ7obUwCfVTORacFlJtiZ3sHc=
+
+Name: eclipse48@2x.png
+SHA-256-Digest: 6Lrx8usKqpjJJLwSMWbrzRvF1XivZ8OCHm0i2r9FOyQ=
+
+Name: eclipse32.png
+SHA-256-Digest: tzsiT4zo2LDTEu1rWyuz7r4lDumDliidgr+5nbjnNwc=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.properties
+SHA-256-Digest: JChyI7ekSMGWavJplRoLYI4LqX4pPKEjL7DSuRWjQyE=
+
+Name: about.mappings
+SHA-256-Digest: df6phfrXHus8Bc7AGeSTUZUD8yFmkadkxtGIu6AvJB8=
+
+Name: org.eclipse.ui.intro.universal.solstice/intro-eclipse.svg
+SHA-256-Digest: Xa/1SuIS1rBk5beaZV82czskxgXJGuhTFf3Kj+Bc2PM=
+
+Name: eclipse256@2x.png
+SHA-256-Digest: Qrei5uKg0caBv56H1Il135NHKDRrzTOGW3yZcOY2FPY=
+
+Name: eclipse_lg.png
+SHA-256-Digest: POFzJGkFp++Dp6I/3G8EfFLzzeG2qvb4e5csoH5AuSE=
+
+Name: eclipse48.png
+SHA-256-Digest: +kK7mXUUwF+raDMuDr4UKiAlejLMDr1UC0nJjraXilg=
+
+Name: eclipse_lg@2x.png
+SHA-256-Digest: odJxtxtnbyTDB+V/50a4gEwVkc9SDO+l0x8xXIj0zKg=
+
+Name: about.ini
+SHA-256-Digest: A/WVMnopOsm16t5yOMEWfszFZcbM8mNeBe2JZNq3WnA=
+
+Name: intro-eclipse.svg
+SHA-256-Digest: QP/Y7dAN3AUPOE4Dtgt816Z/chpK4Ncf81M0yaSEdCg=
+
+Name: plugin.properties
+SHA-256-Digest: 2tzJN7M3wXERKFBp0OJHPUlD+IZSFf+cgcjGBEI2P44=
+
+Name: eclipse16@2x.png
+SHA-256-Digest: j3LbmUvpf6nVmbIvByKYugihlCl5WJYLzXTNBDQofDs=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.modeling/
+ pom.xml
+SHA-256-Digest: tSJcKTnyzv0XExxlY1k4PCrGUmylx4tdnSf77J0yuk8=
+
+Name: eclipse16.png
+SHA-256-Digest: n4w1sDrng2suD8QmhiSdPVYvw6CERWEkj/B1FbTUat8=
+
+Name: eclipse256.png
+SHA-256-Digest: R2Y26E+mRAx1ijRzZILdvqFTkeaOjKCw+3W+BfJXobk=
+

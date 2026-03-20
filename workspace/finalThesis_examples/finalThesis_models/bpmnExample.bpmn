@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:BPMN xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.example.org/bpmn">
+  <swimlane nameSwimlane="default" laneincludeswimlane="//@swimlane/@lane.0 //@swimlane/@lane.1 //@swimlane/@lane.2">
+    <lane nameLane="Student" laneincludefigure="//@swimlane/@lane.0/@figure.0 //@swimlane/@lane.0/@figure.1 //@swimlane/@lane.0/@figure.2 //@swimlane/@lane.0/@figure.3 //@swimlane/@lane.0/@figure.4 //@swimlane/@lane.0/@figure.5 //@swimlane/@lane.0/@figure.6 //@swimlane/@lane.0/@figure.7 //@swimlane/@lane.0/@figure.8" lanerelationswimline="//@swimlane">
+      <figure xsi:type="bpmn:Activity" name="Enrrols in undergraduate thesis project" connectionTarget="//@swimlane/@lane.0/@figure.7/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.0/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.1" from="//@swimlane/@lane.0/@figure.0"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Sees the list of tutors and projects" connectionTarget="//@swimlane/@lane.0/@figure.0/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.1/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.2" from="//@swimlane/@lane.0/@figure.1"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Chooses tutor and project" connectionTarget="//@swimlane/@lane.0/@figure.1/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.2/@connection.0 //@swimlane/@lane.0/@figure.2/@connection.1" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.9" from="//@swimlane/@lane.0/@figure.2"/>
+        <connection xsi:type="bpmn:Association" to="//@swimlane/@lane.1/@figure.5" from="//@swimlane/@lane.0/@figure.2"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Carries out his undergraduate thesis" connectionTarget="//@swimlane/@lane.0/@figure.9/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.3/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.4" from="//@swimlane/@lane.0/@figure.3"/>
+        <nature type="MANUAL_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Uploads project document" connectionTarget="//@swimlane/@lane.0/@figure.3/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.4/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.5" from="//@swimlane/@lane.0/@figure.4"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Request thesis defense" connectionTarget="//@swimlane/@lane.0/@figure.4/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.5/@connection.0 //@swimlane/@lane.0/@figure.5/@connection.1" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Message" to="//@swimlane/@lane.1/@figure.3" from="//@swimlane/@lane.0/@figure.5"/>
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.10" from="//@swimlane/@lane.0/@figure.5"/>
+        <nature/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Carries out thesis defense" connectionTarget="//@swimlane/@lane.1/@figure.2/@connection.0 //@swimlane/@lane.0/@figure.10/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.6/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.8" from="//@swimlane/@lane.0/@figure.6"/>
+        <nature type="MANUAL_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:HighLevel" connectionSource="//@swimlane/@lane.0/@figure.7/@connection.0" figurecontentslane="//@swimlane/@lane.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.0" from="//@swimlane/@lane.0/@figure.7"/>
+      </figure>
+      <figure xsi:type="bpmn:Final" name="" connectionTarget="//@swimlane/@lane.0/@figure.6/@connection.0" figurecontentslane="//@swimlane/@lane.0" type="FINAL"/>
+      <figure xsi:type="bpmn:Boundary" name="" connectionTarget="//@swimlane/@lane.0/@figure.2/@connection.0 //@swimlane/@lane.1/@figure.7/@connection.0 //@swimlane/@lane.2/@figure.0/@connection.0" connectionSource="//@swimlane/@lane.0/@figure.9/@connection.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.3" from="//@swimlane/@lane.0/@figure.9"/>
+      </figure>
+      <figure xsi:type="bpmn:Boundary" name="" connectionTarget="//@swimlane/@lane.0/@figure.5/@connection.1" connectionSource="//@swimlane/@lane.0/@figure.10/@connection.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.0/@figure.6" from="//@swimlane/@lane.0/@figure.10"/>
+      </figure>
+    </lane>
+    <lane nameLane="Supervisor" laneincludefigure="//@swimlane/@lane.1/@figure.0 //@swimlane/@lane.1/@figure.1 //@swimlane/@lane.1/@figure.2 //@swimlane/@lane.1/@figure.6 //@swimlane/@lane.1/@figure.7" lanerelationswimline="//@swimlane">
+      <figure xsi:type="bpmn:Activity" name="Request project registration" connectionTarget="//@swimlane/@lane.1/@figure.5/@connection.0" connectionSource="//@swimlane/@lane.1/@figure.0/@connection.0" figurecontentslane="//@swimlane/@lane.1">
+        <connection xsi:type="bpmn:Message" to="//@swimlane/@lane.2/@figure.1" from="//@swimlane/@lane.1/@figure.0"/>
+        <nature/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Authorizes thesis defense" connectionTarget="//@swimlane/@lane.1/@figure.3/@connection.0" connectionSource="//@swimlane/@lane.1/@figure.1/@connection.0" figurecontentslane="//@swimlane/@lane.1">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.1/@figure.4" from="//@swimlane/@lane.1/@figure.1"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Activity" name="Proposes committe" connectionTarget="//@swimlane/@lane.1/@figure.4/@connection.0" connectionSource="//@swimlane/@lane.1/@figure.2/@connection.0 //@swimlane/@lane.1/@figure.2/@connection.1" figurecontentslane="//@swimlane/@lane.1">
+        <connection xsi:type="bpmn:Message" to="//@swimlane/@lane.0/@figure.6" from="//@swimlane/@lane.1/@figure.2"/>
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.1/@figure.6" from="//@swimlane/@lane.1/@figure.2"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Catch" name="" connectionTarget="//@swimlane/@lane.0/@figure.5/@connection.0" connectionSource="//@swimlane/@lane.1/@figure.3/@connection.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.1/@figure.1" from="//@swimlane/@lane.1/@figure.3"/>
+      </figure>
+      <figure xsi:type="bpmn:Gateway" name="" connectionTarget="//@swimlane/@lane.1/@figure.1/@connection.0" connectionSource="//@swimlane/@lane.1/@figure.4/@connection.0 //@swimlane/@lane.1/@figure.4/@connection.1">
+        <connection xsi:type="bpmn:Secuence" name="YES" to="//@swimlane/@lane.1/@figure.2" from="//@swimlane/@lane.1/@figure.4"/>
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.1/@figure.7" from="//@swimlane/@lane.1/@figure.4"/>
+      </figure>
+      <figure xsi:type="bpmn:Boundary" name="" connectionTarget="//@swimlane/@lane.0/@figure.2/@connection.1" connectionSource="//@swimlane/@lane.1/@figure.5/@connection.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.1/@figure.0" from="//@swimlane/@lane.1/@figure.5"/>
+      </figure>
+      <figure xsi:type="bpmn:Final" name="" connectionTarget="//@swimlane/@lane.1/@figure.2/@connection.1" figurecontentslane="//@swimlane/@lane.1" type="FINAL"/>
+      <figure xsi:type="bpmn:Activity" name="Comunicates rejection" connectionTarget="//@swimlane/@lane.1/@figure.4/@connection.1" connectionSource="//@swimlane/@lane.1/@figure.7/@connection.0" figurecontentslane="//@swimlane/@lane.1">
+        <connection xsi:type="bpmn:Message" to="//@swimlane/@lane.0/@figure.9" from="//@swimlane/@lane.1/@figure.7"/>
+      </figure>
+    </lane>
+    <lane nameLane="Unit of Undergraduate Thesis" laneincludefigure="//@swimlane/@lane.2/@figure.0 //@swimlane/@lane.2/@figure.2" lanerelationswimline="//@swimlane">
+      <figure xsi:type="bpmn:Activity" name="Validates registration" connectionTarget="//@swimlane/@lane.2/@figure.1/@connection.0" connectionSource="//@swimlane/@lane.2/@figure.0/@connection.0 //@swimlane/@lane.2/@figure.0/@connection.1" figurecontentslane="//@swimlane/@lane.2">
+        <connection xsi:type="bpmn:Message" to="//@swimlane/@lane.0/@figure.9" from="//@swimlane/@lane.2/@figure.0"/>
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.2/@figure.2" from="//@swimlane/@lane.2/@figure.0"/>
+        <nature type="USER_TASK"/>
+      </figure>
+      <figure xsi:type="bpmn:Catch" name="" connectionTarget="//@swimlane/@lane.1/@figure.0/@connection.0" connectionSource="//@swimlane/@lane.2/@figure.1/@connection.0">
+        <connection xsi:type="bpmn:Secuence" to="//@swimlane/@lane.2/@figure.0" from="//@swimlane/@lane.2/@figure.1"/>
+      </figure>
+      <figure xsi:type="bpmn:Final" name="" connectionTarget="//@swimlane/@lane.2/@figure.0/@connection.1" figurecontentslane="//@swimlane/@lane.2" type="FINAL"/>
+    </lane>
+  </swimlane>
+</bpmn:BPMN>

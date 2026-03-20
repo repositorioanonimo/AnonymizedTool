@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1699350249124'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='6'>
+    <artifact classifier='osgi.bundle' id='BPMN.edit' version='1.0.0.201810291938'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/plugins/BPMN.edit_1.0.0.201810291938/'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\plugins\BPMN.edit_1.0.0.201810291938'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='BPMN' version='0.1.0.201810291938'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/plugins/BPMN_0.1.0.201810291938/'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\plugins\BPMN_0.1.0.201810291938'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='BPMN.editor' version='1.0.0.201810291938'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/plugins/BPMN.editor_1.0.0.201810291938/'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\plugins\BPMN.editor_1.0.0.201810291938'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='my.project.design' version='1.0.0.201810291938'>
+      <properties size='2'>
+        <property name='artifact.size' value='658120'/>
+        <property name='download.size' value='658120'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/plugins/my.project.design_1.0.0.201810291938.jar'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\plugins\my.project.design_1.0.0.201810291938.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='es.kybele.innovaserv.dashboard' version='1.0.0.202206051325'>
+      <properties size='2'>
+        <property name='artifact.size' value='67597'/>
+        <property name='download.size' value='67597'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/plugins/es.kybele.innovaserv.dashboard_1.0.0.202206051325.jar'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\plugins\es.kybele.innovaserv.dashboard_1.0.0.202206051325.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='BPMNDiagram' version='1.0.0.201810291938'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Francisco%20Javier/Desktop/patente_INNoVaServ/01_Ejecutable/innovaserv_toolkit/features/BPMNDiagram_1.0.0.201810291938/'/>
+        <property name='file.name' value='C:\Users\Francisco Javier\Desktop\patente_INNoVaServ\01_Ejecutable\innovaserv_toolkit\features\BPMNDiagram_1.0.0.201810291938'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

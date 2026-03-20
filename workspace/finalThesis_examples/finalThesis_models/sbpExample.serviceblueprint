@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceblueprint:ServiceBlueprintModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:serviceblueprint="http://www.kybele.es/projects/elastic/models/serviceblueprint/0.1">
+  <hasServiceBlueprintDiagram>
+    <hasPhysicalEvidences content="Student enrolls in &#xD;&#xA;undergraduate &#xD;&#xA;thesis project"/>
+    <hasCustomerActions content="Student sees the list &#xD;&#xA;of tutors and projects"/>
+    <hasCustomerActions content="Student chooses&#xD;&#xA;tutor and project"/>
+    <hasCustomerActions content="Student carries out&#xD;&#xA;his undergraduate&#xD;&#xA;thesis"/>
+    <hasCustomerActions content="Student uploads his&#xD;&#xA;project document"/>
+    <hasCustomerActions content="Student request &#xD;&#xA;the thesis defense"/>
+    <hasCustomerActions content="Student carries out&#xD;&#xA;his thesis defense"/>
+    <hasOnStageEmployeeActions content="Tutor authorizes&#xD;&#xA;the thesis defense"/>
+    <hasBackStageEmployeeActions content="Tutor request&#xD;&#xA;project registration"/>
+    <hasBackStageEmployeeActions content="Tutor proposes the &#xD;&#xA;committe for the &#xD;&#xA;thesis defense"/>
+    <hasSupportProcesses content="Unit of Undergraduate&#xD;&#xA;Thesis validates &#xD;&#xA;registration"/>
+  </hasServiceBlueprintDiagram>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasPhysicalEvidences.0" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.0"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.0" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.1"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.1" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.0"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.0" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasSupportProcesses.0"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasSupportProcesses.0" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.2"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.2" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.3"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.3" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.4"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.4" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasOnStageEmployeeActions.0"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasOnStageEmployeeActions.0" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.1"/>
+  <hasServiceBlueprintConnection sourceServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.1" targetServiceBlueprintNode="//@hasServiceBlueprintDiagram/@hasCustomerActions.5"/>
+</serviceblueprint:ServiceBlueprintModel>

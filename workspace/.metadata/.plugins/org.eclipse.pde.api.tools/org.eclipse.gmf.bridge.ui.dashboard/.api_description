@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.gmf.bridge.ui.dashboard" modificationStamp="8518" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.gmf.bridge.ui.dashboard/src&lt;org.eclipse.gmf.bridge.ui.dashboard"/>
+        <type handle="=org.eclipse.gmf.bridge.ui.dashboard/src&lt;org.eclipse.gmf.bridge.ui.dashboard{DashboardAction.java[DashboardAction" modificationStamp="8539" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.gmf.bridge.ui.dashboard/src&lt;org.eclipse.gmf.bridge.ui.dashboard{DashboardFacade.java[DashboardFacade" modificationStamp="8540" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.gmf.bridge.ui.dashboard/src&lt;org.eclipse.gmf.bridge.ui.dashboard{DashboardState.java[DashboardState" modificationStamp="8541" restrictions="0" visibility="0"/>
+    </package>
+</component>

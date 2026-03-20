@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ocl"
+      label="%featureName"
+      version="3.14.400.v20201208-2229"
+      provider-name="%providerName"
+      plugin="org.eclipse.ocl.ecore">
+
+   <description url="https://projects.eclipse.org/projects/modeling.mdt.ocl">
+      %description
+   </description>
+
+   <copyright>
+      [Documentation] Copyright text will be taken from the shared license feature
+   </copyright>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.ocl"
+         download-size="1166"
+         install-size="3302"
+         version="3.15.100.v20201208-2229"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ocl.ecore"
+         download-size="376"
+         install-size="1085"
+         version="3.15.100.v20201208-2229"
+         unpack="false"/>
+
+   <plugin
+         id="lpg.runtime.java"
+         download-size="108"
+         install-size="213"
+         version="2.0.17.v201004271640"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ocl.common"
+         download-size="33"
+         install-size="60"
+         version="1.8.500.v20201208-2229"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

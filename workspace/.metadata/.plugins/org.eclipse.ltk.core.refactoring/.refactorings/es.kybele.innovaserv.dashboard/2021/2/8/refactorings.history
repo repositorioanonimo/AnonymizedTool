@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;pcn.ecore&apos; to &apos;es.kybele.innovaserv.dashboard/src/es.kybele.innovaserv.dashboard.models&apos;&#x0D;&#x0A;- Original project: &apos;es.kybele.innovaserv.dashboard&apos;&#x0D;&#x0A;- Destination element: &apos;es.kybele.innovaserv.dashboard/src/es.kybele.innovaserv.dashboard.models&apos;&#x0D;&#x0A;- Original element: &apos;pcn.ecore&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;es.kybele.innovaserv.dashboard.models" element1="src/es/kybele/innovaserv/dashboard/etlLaunchers/pcn.ecore" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1614248875240" units="0" version="1.0"/>
+</session>

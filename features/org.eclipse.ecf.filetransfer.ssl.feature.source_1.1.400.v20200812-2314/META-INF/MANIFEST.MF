@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+
+Name: about.html
+SHA-256-Digest: POqrJ/GkaB7JNd67dYi/zeR71pOPSE4Qh2mcxPGTRmQ=
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.ssl.
+ feature/pom.properties
+SHA-256-Digest: 2F0MWG53fC1GHLBzzcaEqYO22hWawGepd+/mFdYvGSA=
+
+Name: feature.xml
+SHA-256-Digest: QBuZZIdrWJXsPkor6IKlc3WwhQ9ohYCTC3V6qtk65bk=
+
+Name: feature.properties
+SHA-256-Digest: rsanILPzuRY+iFuk6a0OiHGjFVdbiEu5XVPS5Y/2M4s=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.ssl.
+ feature/pom.xml
+SHA-256-Digest: YFUljlOp9ijhewFYghcEN9+wMIseXz8mGev3BjRSeYE=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

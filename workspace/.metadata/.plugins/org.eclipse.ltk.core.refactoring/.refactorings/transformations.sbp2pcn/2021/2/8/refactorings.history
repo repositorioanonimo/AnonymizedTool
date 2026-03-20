@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;sbp2pcn.etl&apos; to &apos;es.kybele.innovaserv.dashboard/src/es.kybele.innovaserv.dashboard.etl&apos;&#x0D;&#x0A;- Original project: &apos;transformations.sbp2pcn&apos;&#x0D;&#x0A;- Destination element: &apos;es.kybele.innovaserv.dashboard/src/es.kybele.innovaserv.dashboard.etl&apos;&#x0D;&#x0A;- Original element: &apos;sbp2pcn.etl&apos;" description="Copy file" destination="=es.kybele.innovaserv.dashboard/src&lt;es.kybele.innovaserv.dashboard.etl" element1="sbp2pcn.etl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614248442502" units="0" version="1.0"/>
+</session>

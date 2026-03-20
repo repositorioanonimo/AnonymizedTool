@@ -1,0 +1,1555 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='org.eclipse.epsilon.updatesite' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1599177813449'/>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='126'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.spreadsheets.google.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='28510'/>
+        <property name='download.size' value='28510'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.google.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='76e280018f25f9f382351df9e8d2b503'/>
+        <property name='download.checksum.md5' value='76e280018f25f9f382351df9e8d2b503'/>
+        <property name='download.checksum.sha-256' value='01971a84226fe8d538a32454b0bc4d485b9a5163564ab253a1785a6c1c5445e2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eml.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='350858'/>
+        <property name='download.size' value='350858'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eml.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f75f90d3330a00bdbb1634f187e3d334'/>
+        <property name='download.checksum.md5' value='f75f90d3330a00bdbb1634f187e3d334'/>
+        <property name='download.checksum.sha-256' value='903b32da712491a10de3a7ab56dc4777db4eea5cfcb431fc49ca54c8efdbd8f0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ecl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='350217'/>
+        <property name='download.size' value='350217'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ecl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='6020c8e7623a8393173362748acbcf53'/>
+        <property name='download.checksum.md5' value='6020c8e7623a8393173362748acbcf53'/>
+        <property name='download.checksum.sha-256' value='3482813f45357be099017ad6ec4b716f1afd948ac511bbe7d79f591171bd10a6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.spreadsheets.excel.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26006'/>
+        <property name='download.size' value='26006'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.excel.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='9f8e5aec6a039d7d8a3393a9f24111c6'/>
+        <property name='download.checksum.md5' value='9f8e5aec6a039d7d8a3393a9f24111c6'/>
+        <property name='download.checksum.sha-256' value='baa35c12805d87e56f97cf7951ab53871b9ef1d081fb51decad14a5664f59906'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.spreadsheets.excel' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='35387'/>
+        <property name='download.size' value='35387'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.excel'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='270b7e1ca865fe84194e87f14e308bed'/>
+        <property name='download.checksum.md5' value='270b7e1ca865fe84194e87f14e308bed'/>
+        <property name='download.checksum.sha-256' value='be01bd91ba40efbfa7213084b7eb06548a50e60987c96f52b7fe97d0b6b711bc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='204080'/>
+        <property name='download.size' value='204080'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='14ef838ddc027da5c6ded834e0267909'/>
+        <property name='download.checksum.md5' value='14ef838ddc027da5c6ded834e0267909'/>
+        <property name='download.checksum.sha-256' value='ab1395985d09c8d15e2ff65e18620f3eaa9cca2cb87d79cd57a8eac234310ad4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emf.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='178720'/>
+        <property name='download.size' value='178720'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emf.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='4ffded09c643fc4071f7eda2e37da1b1'/>
+        <property name='download.checksum.md5' value='4ffded09c643fc4071f7eda2e37da1b1'/>
+        <property name='download.checksum.sha-256' value='57fcf974b58fb8d6517fb7279adf92d5d47d95c3992173bc637f281a91e8124b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.dt.cmp.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='27406'/>
+        <property name='download.size' value='27406'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.dt.cmp.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='e5d3b9038a0f0be752ea59c8c68f8a6b'/>
+        <property name='download.checksum.md5' value='e5d3b9038a0f0be752ea59c8c68f8a6b'/>
+        <property name='download.checksum.sha-256' value='5f7c9897c1bc24511b2299b1177d85b57bbd2e995c0c5a2c0cda185b3afd0f21'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eol.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='294483'/>
+        <property name='download.size' value='294483'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eol.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='307c8808ccdcb3edf5b557f07e47a604'/>
+        <property name='download.checksum.md5' value='307c8808ccdcb3edf5b557f07e47a604'/>
+        <property name='download.checksum.sha-256' value='ae2ff85186be207239b6f77e6a3dfda978933880a063a547eeb7452117b9429c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.simulink.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26061'/>
+        <property name='download.size' value='26061'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.simulink.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='44d8f32fa4b3461dd3d181ac024a4da2'/>
+        <property name='download.checksum.md5' value='44d8f32fa4b3461dd3d181ac024a4da2'/>
+        <property name='download.checksum.sha-256' value='49b85f62fdebb793ebf06144f99eba4dd7b90ec6a611d1066a6c9ba39bf32eaa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ewl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='321635'/>
+        <property name='download.size' value='321635'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='566f4775a060a3c9b1a8de4a9435f1f2'/>
+        <property name='download.checksum.md5' value='566f4775a060a3c9b1a8de4a9435f1f2'/>
+        <property name='download.checksum.sha-256' value='189e621bc1f00b73c10b8f40c0c151d73375ae83919a2e948d236e16de8b19dc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.etl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='350450'/>
+        <property name='download.size' value='350450'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.etl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='37fed00d464abb8826096d5696c369eb'/>
+        <property name='download.checksum.md5' value='37fed00d464abb8826096d5696c369eb'/>
+        <property name='download.checksum.sha-256' value='eef6f96958691c992640d1df4d16a838cb52f5c703058e8cd6e8e8ec64b16dda'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.emf.decorator.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='21333'/>
+        <property name='download.size' value='21333'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.emf.decorator.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='d3bc54cfe3cc4f9bd57894c7f716bdb3'/>
+        <property name='download.checksum.md5' value='d3bc54cfe3cc4f9bd57894c7f716bdb3'/>
+        <property name='download.checksum.sha-256' value='450cb4bae4aa9904b7a289f9caa81aa72cae37fed109460d69b99b0904aef92e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.profiling' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='34911'/>
+        <property name='download.size' value='34911'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.profiling'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='2501bacebaf237e3060dcfe131f846a1'/>
+        <property name='download.checksum.md5' value='2501bacebaf237e3060dcfe131f846a1'/>
+        <property name='download.checksum.sha-256' value='df992e8bdc0f7966c1f04af5863ea22bb68b05f30c7a6c55c2530d34bb564aee'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.dt.diff.files' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='24889'/>
+        <property name='download.size' value='24889'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.dt.diff.files'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='fd86283acccaf07ab25cd12154334b05'/>
+        <property name='download.checksum.md5' value='fd86283acccaf07ab25cd12154334b05'/>
+        <property name='download.checksum.sha-256' value='d3a9520c160e277e5f028273cae95645f5ac0ee9507f39d75a54a2e8c4e1962d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eol.tools' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='30944'/>
+        <property name='download.size' value='30944'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eol.tools'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='8b04dc0f1acdc765b6ed2646342a1432'/>
+        <property name='download.checksum.md5' value='8b04dc0f1acdc765b6ed2646342a1432'/>
+        <property name='download.checksum.sha-256' value='8d5c7c751186e3853a55ead2144abb5b370116aab28614550e3a8c8058847489'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='90123'/>
+        <property name='download.size' value='90123'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='5fc6a37fd9e252c658d0fc5cd4b04f19'/>
+        <property name='download.checksum.md5' value='5fc6a37fd9e252c658d0fc5cd4b04f19'/>
+        <property name='download.checksum.sha-256' value='2f8e5aa78871dec37504c4cd96b5309e7ece20c45974c3c0ee5a2c0f9e6b5b28'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.picto.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25993'/>
+        <property name='download.size' value='25993'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.picto.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='a4583e2da122bf142145d26a7a78a70e'/>
+        <property name='download.checksum.md5' value='a4583e2da122bf142145d26a7a78a70e'/>
+        <property name='download.checksum.sha-256' value='c7bb68b9138c0c128310e613da4dd50471a3a31881f54ab0709880e7c3b3d8cf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='76084'/>
+        <property name='download.size' value='76084'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='1228f1f50a9624b3908e762c8db588ec'/>
+        <property name='download.checksum.md5' value='1228f1f50a9624b3908e762c8db588ec'/>
+        <property name='download.checksum.sha-256' value='d47c99370fa73720a38d04e472a6cd9b30cc8172ad68017e8313798e781b4b8f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.core.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26368'/>
+        <property name='download.size' value='26368'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.core.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='2fdf3b24a5d534ef979f2973c925de0c'/>
+        <property name='download.checksum.md5' value='2fdf3b24a5d534ef979f2973c925de0c'/>
+        <property name='download.checksum.sha-256' value='b4b883194a5c6ff3e0d7ed46677c3ddda5f8c229ab598965287574a2396f97fc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.picto' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='414443'/>
+        <property name='download.size' value='414443'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.picto'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='fa74e322c59ab11f4ca1d31fe9851403'/>
+        <property name='download.checksum.md5' value='fa74e322c59ab11f4ca1d31fe9851403'/>
+        <property name='download.checksum.sha-256' value='290eb12799b92a1aa8f20bdbb5944ce3f0f9e93b24c0ee2ec377d8a15b5c4723'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.uml.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25994'/>
+        <property name='download.size' value='25994'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.uml.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='36a00c24f2b29d1ec3058c9ccf714bb6'/>
+        <property name='download.checksum.md5' value='36a00c24f2b29d1ec3058c9ccf714bb6'/>
+        <property name='download.checksum.sha-256' value='3b67810c4d3ce3ab65ea86b2ca2e3f6c1f4ce4ced636de1b9486c2ab37604898'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eml.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='76179'/>
+        <property name='download.size' value='76179'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eml.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='d65937d26e3f970b97265c2ebaedda1a'/>
+        <property name='download.checksum.md5' value='d65937d26e3f970b97265c2ebaedda1a'/>
+        <property name='download.checksum.sha-256' value='d7b07289f77147836073cf92c88110b6ea769b3e5992014969a6288e29f8b34d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.common' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='65333'/>
+        <property name='download.size' value='65333'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.common'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='cfa11e25fc7623f4986b1bdede6fd0f0'/>
+        <property name='download.checksum.md5' value='cfa11e25fc7623f4986b1bdede6fd0f0'/>
+        <property name='download.checksum.sha-256' value='cd8b9ff00ca02cf7c67e06a943fb4d7d7787195dfc5dfc5196a9318d545ac434'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.dt.epackageregistryexplorer' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='296422'/>
+        <property name='download.size' value='296422'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.dt.epackageregistryexplorer'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='9899f29635a608bce15dadfe4a2d0e95'/>
+        <property name='download.checksum.md5' value='9899f29635a608bce15dadfe4a2d0e95'/>
+        <property name='download.checksum.sha-256' value='625261fc7bfd07496a4f0ba6838ba72a85b6933047341bad38579bea5fe67b3f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.dt.diff.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='20060'/>
+        <property name='download.size' value='20060'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.dt.diff.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='ee49b8d43e736dbccf3f4332f2d514b8'/>
+        <property name='download.checksum.md5' value='ee49b8d43e736dbccf3f4332f2d514b8'/>
+        <property name='download.checksum.sha-256' value='710dc44ab14a4eb47ac5278f0d2205763458a6193a3cdb57496fa6e16485553e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.muddle' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='133375'/>
+        <property name='download.size' value='133375'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.muddle'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f180eac31422995bc0e603c7e59fa972'/>
+        <property name='download.checksum.md5' value='f180eac31422995bc0e603c7e59fa972'/>
+        <property name='download.checksum.sha-256' value='7030cb4a00a1e7bd4904adb9a1a6647df709148633960630f494f26cc6993622'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.bibtex' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='36256'/>
+        <property name='download.size' value='36256'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.bibtex'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='359df97d92ca663fd2a2657462591b9b'/>
+        <property name='download.checksum.md5' value='359df97d92ca663fd2a2657462591b9b'/>
+        <property name='download.checksum.sha-256' value='d749d8de30897884128f3dfd18070990d58051f35023479c50f18f86d9cbd93e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.uml.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='24605'/>
+        <property name='download.size' value='24605'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.uml.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='ad8c6207b59f69e6a850005ec3462586'/>
+        <property name='download.checksum.md5' value='ad8c6207b59f69e6a850005ec3462586'/>
+        <property name='download.checksum.sha-256' value='d177966d1c1eecafd28f0e971a7b289f01ab66acee45ac06a8324ab2673f6cb0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.uml.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25982'/>
+        <property name='download.size' value='25982'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.uml.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='1a029babfb665ed347d6d876a98dbe17'/>
+        <property name='download.checksum.md5' value='1a029babfb665ed347d6d876a98dbe17'/>
+        <property name='download.checksum.sha-256' value='a316226994116e7bd802fe6bbc0faa7f54efd2853df3ddfbcd02a952adca1276'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.core.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26358'/>
+        <property name='download.size' value='26358'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.core.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='1a7cadf122107bf656b7d02a31aa08a3'/>
+        <property name='download.checksum.md5' value='1a7cadf122107bf656b7d02a31aa08a3'/>
+        <property name='download.checksum.sha-256' value='c86308706cd8965e5eb01b11942bc86147e9503d23e77de00e21003a095cae44'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.traceability.fine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='43687'/>
+        <property name='download.size' value='43687'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.egl.traceability.fine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='0c6210adb861ad4b5ba4451cbf82fcce'/>
+        <property name='download.checksum.md5' value='0c6210adb861ad4b5ba4451cbf82fcce'/>
+        <property name='download.checksum.sha-256' value='ead00d79bc5f330164dfce72628d61b84deed3837df75f4123551f0cb5b6fb8a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.hutn.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26164'/>
+        <property name='download.size' value='26164'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='01ebf59e5651a8e3b1fcbce06fa167fd'/>
+        <property name='download.checksum.md5' value='01ebf59e5651a8e3b1fcbce06fa167fd'/>
+        <property name='download.checksum.sha-256' value='e86f2c7cc4d1af637888c151df730b2a4bca265f5773c49130a8d8673f0c204e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.antlr.postprocessor.model' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='57922'/>
+        <property name='download.size' value='57922'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.antlr.postprocessor.model'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='133371f8e75eaf4ab104aaa586833526'/>
+        <property name='download.checksum.md5' value='133371f8e75eaf4ab104aaa586833526'/>
+        <property name='download.checksum.sha-256' value='fada63bf73fe700862f3c593dc18db7c3849dae7371d5dba7b7fdcb12e8bb003'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.csv.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25997'/>
+        <property name='download.size' value='25997'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.csv.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='a648e24b0ecc68f05e44ab3661d3ace5'/>
+        <property name='download.checksum.md5' value='a648e24b0ecc68f05e44ab3661d3ace5'/>
+        <property name='download.checksum.sha-256' value='751649eb7b683d08f0d695c00767d6589d5148e7f7f299a7488c25a3c6244fd2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.spreadsheets' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='90755'/>
+        <property name='download.size' value='90755'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='42d29590b7d53fb2d08db58792f892a1'/>
+        <property name='download.checksum.md5' value='42d29590b7d53fb2d08db58792f892a1'/>
+        <property name='download.checksum.sha-256' value='67114849fd98d5aadc9c9d414204f8f685d7e51c9abf279dfb610666d00b028e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.emf.virtual' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='105025'/>
+        <property name='download.size' value='105025'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.emf.virtual'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='fc37435bd4ce652bda3c516fc6a43ced'/>
+        <property name='download.checksum.md5' value='fc37435bd4ce652bda3c516fc6a43ced'/>
+        <property name='download.checksum.sha-256' value='b05705633fd960f4f98504d88005349f9a27cf65179b703cf4eca12eef6644c2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.junit.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='18449'/>
+        <property name='download.size' value='18449'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.junit.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='ab29cf5469f1bb427283cae4eafdd479'/>
+        <property name='download.checksum.md5' value='ab29cf5469f1bb427283cae4eafdd479'/>
+        <property name='download.checksum.sha-256' value='02a7b27be53802f7f90d5a0123f58fef06c451c2777223a28b0e7c778920c1a4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.emf.decorator' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='25746'/>
+        <property name='download.size' value='25746'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.emf.decorator'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='7a8a48ebc34a2b07b47b482b4acf50ec'/>
+        <property name='download.checksum.md5' value='7a8a48ebc34a2b07b47b482b4acf50ec'/>
+        <property name='download.checksum.sha-256' value='d7f169b103d66766051c30425439d10374379829f225b363ce8f135c105f1b2d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.spreadsheets.excel.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='27643'/>
+        <property name='download.size' value='27643'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.excel.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='435a1bfc993d59be22f04a38ff0ffdfd'/>
+        <property name='download.checksum.md5' value='435a1bfc993d59be22f04a38ff0ffdfd'/>
+        <property name='download.checksum.sha-256' value='da4f802817e7d391f989d2e154f325e5d7d2c2e6458221e2820da0aab4c03f7b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.composite' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='27088'/>
+        <property name='download.size' value='27088'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.composite'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='6ae35ffedc8833e01ef9aff71a339c58'/>
+        <property name='download.checksum.md5' value='6ae35ffedc8833e01ef9aff71a339c58'/>
+        <property name='download.checksum.sha-256' value='31f2b147d392134d3c3cab397a5273a59ae78e96675f3e2c8665518dd8d9b5ba'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eol.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='1145058'/>
+        <property name='download.size' value='1145058'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eol.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='d604a161ef5614a1a3f5d483bc3fcfb5'/>
+        <property name='download.checksum.md5' value='d604a161ef5614a1a3f5d483bc3fcfb5'/>
+        <property name='download.checksum.sha-256' value='75140ddb5966640e7de32e0dda232ed91d634d47e5dc9ffc79fe63de3c74d0e4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.common.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='674870'/>
+        <property name='download.size' value='674870'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.common.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c93e39177a87a26466125b22f76a3012'/>
+        <property name='download.checksum.md5' value='c93e39177a87a26466125b22f76a3012'/>
+        <property name='download.checksum.sha-256' value='5b331e8edc649208d2189f78c878a0c0791132aea388331bb05aa44aba5af08b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.unparser' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='32989'/>
+        <property name='download.size' value='32989'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.unparser'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='869f08c7b678157805d4e399211e7d53'/>
+        <property name='download.checksum.md5' value='869f08c7b678157805d4e399211e7d53'/>
+        <property name='download.checksum.sha-256' value='e9e9671bcccc9cd71d838ba3e975d47251eea3bc0d834395746da744424175bd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.flock.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='441056'/>
+        <property name='download.size' value='441056'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flock.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c0237e10f225ef1cdc40dc0adab1726e'/>
+        <property name='download.checksum.md5' value='c0237e10f225ef1cdc40dc0adab1726e'/>
+        <property name='download.checksum.sha-256' value='268896591f26088cb2bb9b5955dd4641cf531484496c42c1c4f012e32fc17250'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.plainxml.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='57505'/>
+        <property name='download.size' value='57505'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.plainxml.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='a93d72458b0e50109c972dece133837c'/>
+        <property name='download.checksum.md5' value='a93d72458b0e50109c972dece133837c'/>
+        <property name='download.checksum.sha-256' value='45cd5564db907b91739ad8dff5e8a472adc3e36af4f159096dc5d53938a71525'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.perspective' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='138974'/>
+        <property name='download.size' value='138974'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.perspective'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='33bf53c02b4c35295e083574645dc5e8'/>
+        <property name='download.checksum.md5' value='33bf53c02b4c35295e083574645dc5e8'/>
+        <property name='download.checksum.sha-256' value='54789c7e715720de75374b60937cb1aded087710bdff965005b5cd2232c64bd7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emf.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26324'/>
+        <property name='download.size' value='26324'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emf.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='bc428ba986295011ff13988420bf04a1'/>
+        <property name='download.checksum.md5' value='bc428ba986295011ff13988420bf04a1'/>
+        <property name='download.checksum.sha-256' value='39eea129e54f004552ec17a49b694370a8291a92822598485516f77a2b927185'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.flexmi.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='114123'/>
+        <property name='download.size' value='114123'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flexmi.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='23bd93636342120d65a5be4018519d2c'/>
+        <property name='download.checksum.md5' value='23bd93636342120d65a5be4018519d2c'/>
+        <property name='download.checksum.sha-256' value='328cf76faf93d4e058b2ca58607d7b079332006b9a8da2cf76c456b1fbbfa3a7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.evl.emf.validation.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25989'/>
+        <property name='download.size' value='25989'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.evl.emf.validation.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='c687478d8ac52986ae14765fe0996583'/>
+        <property name='download.checksum.md5' value='c687478d8ac52986ae14765fe0996583'/>
+        <property name='download.checksum.sha-256' value='371ddc43765505310168eaa5f652da404864ec0334d83652d3e2e7f329b5f2a5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.epl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='413452'/>
+        <property name='download.size' value='413452'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.epl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c57d69bc6203c7dcac0e683c2722c8f9'/>
+        <property name='download.checksum.md5' value='c57d69bc6203c7dcac0e683c2722c8f9'/>
+        <property name='download.checksum.sha-256' value='0438febb387deffdce17381d2a8a2a6ee3b53ac8ac0e6c2c0042923e1e20fe93'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='397966'/>
+        <property name='download.size' value='397966'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.egl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='91beea5f46013a95fa2a8cea52e9fdfb'/>
+        <property name='download.checksum.md5' value='91beea5f46013a95fa2a8cea52e9fdfb'/>
+        <property name='download.checksum.sha-256' value='a742970563f1330fe50daa8c765a0993ab6b1cb017a853f4fe24c906d6378085'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.flexmi.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25993'/>
+        <property name='download.size' value='25993'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flexmi.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='fe510e5444ba73875df0b7df1bf343c8'/>
+        <property name='download.checksum.md5' value='fe510e5444ba73875df0b7df1bf343c8'/>
+        <property name='download.checksum.sha-256' value='1174f814be2feabd037e7338eb2042d246fd0f39cc1997d43ed3b0a78f84361b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.model' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='126428'/>
+        <property name='download.size' value='126428'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.model'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='ade48e0c0214da2e944504f2b2b1f2d0'/>
+        <property name='download.checksum.md5' value='ade48e0c0214da2e944504f2b2b1f2d0'/>
+        <property name='download.checksum.sha-256' value='62babf4cfcb00c762fc505ecc3417b8a425056c213a5500ac504b030bd668542'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.hutn.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='22261'/>
+        <property name='download.size' value='22261'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.hutn.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='e6ebe7f8d68b4dfa8123a0bdaff6d2db'/>
+        <property name='download.checksum.md5' value='e6ebe7f8d68b4dfa8123a0bdaff6d2db'/>
+        <property name='download.checksum.sha-256' value='e1a62fae9e80dbc94364feb49342d1fd084a61cd1607d41ca04268876fe13c31'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.flexmi.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25957'/>
+        <property name='download.size' value='25957'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flexmi.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='402f40ae1337f1f7b55dd83c12bd45d9'/>
+        <property name='download.checksum.md5' value='402f40ae1337f1f7b55dd83c12bd45d9'/>
+        <property name='download.checksum.sha-256' value='695d6340d561bade27be387a8985dde6599a3a07d146b27ec91b1cf8e495d55e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.erl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='335317'/>
+        <property name='download.size' value='335317'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.erl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='d71008cd3fb26ad3445312ea1d1178e2'/>
+        <property name='download.checksum.md5' value='d71008cd3fb26ad3445312ea1d1178e2'/>
+        <property name='download.checksum.sha-256' value='2b15e3b53abd244832223ab42980362c21d24f680db9a0d1cb0e63f56c665065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.emf.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='129445'/>
+        <property name='download.size' value='129445'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.emf.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='17f5ea94314f7b678eb034ec6500ceea'/>
+        <property name='download.checksum.md5' value='17f5ea94314f7b678eb034ec6500ceea'/>
+        <property name='download.checksum.sha-256' value='7e55a0016e6f1b8ce6980dc376a62c840b32853307ca1e26a2cd3e51f479984b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.spreadsheets.google' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='42478'/>
+        <property name='download.size' value='42478'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.google'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='4e04675cac4436287f8776565791112d'/>
+        <property name='download.checksum.md5' value='4e04675cac4436287f8776565791112d'/>
+        <property name='download.checksum.sha-256' value='45b77e1be1cc23625a9628b5bffaafef5cda2125bfbb9b22af9cceda8729194e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.dictionary' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='37248'/>
+        <property name='download.size' value='37248'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.dictionary'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c9e2357190ffb2ec1139a1d5f5a81b6c'/>
+        <property name='download.checksum.md5' value='c9e2357190ffb2ec1139a1d5f5a81b6c'/>
+        <property name='download.checksum.sha-256' value='bfa671fbfba8f229f9ac3d7bbc6f9c31eab4ba6af871aa0128dbe6e9243ff98a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.profiling.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='219869'/>
+        <property name='download.size' value='219869'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.profiling.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='edf0cad72f498ff6279b0902d922d1fa'/>
+        <property name='download.checksum.md5' value='edf0cad72f498ff6279b0902d922d1fa'/>
+        <property name='download.checksum.sha-256' value='aa5fcbfe3becbb10b2acbd08924dcc1aa5432fe86b05050811da823a3d8713a8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.common' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='204735'/>
+        <property name='download.size' value='204735'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.common'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='46675402a6214f2011c16e28e681bcba'/>
+        <property name='download.checksum.md5' value='46675402a6214f2011c16e28e681bcba'/>
+        <property name='download.checksum.sha-256' value='33210db9bda775ab73fd810d3a555444e162d6328f486faca65b5f86cca38743'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ecl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='149284'/>
+        <property name='download.size' value='149284'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ecl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='eb936e7fec12c7bb4dab4fad48c2b61e'/>
+        <property name='download.checksum.md5' value='eb936e7fec12c7bb4dab4fad48c2b61e'/>
+        <property name='download.checksum.sha-256' value='c2fe6aad0b3d081f914cb5e7a8b9011c78d4ff7bdb06ae49316da68fc9dac83e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.spreadsheets.excel.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26011'/>
+        <property name='download.size' value='26011'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.excel.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='9940b2e0e9128b85f16f872cb793cc8d'/>
+        <property name='download.checksum.md5' value='9940b2e0e9128b85f16f872cb793cc8d'/>
+        <property name='download.checksum.sha-256' value='b43e66ddb8372a38726118c3b15aad73e327b3d55ca7ac7e1b63ca5351b542a0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.help' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='37964'/>
+        <property name='download.size' value='37964'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.help'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f9f8dd7277332d81daeb5221a394ceaf'/>
+        <property name='download.checksum.md5' value='f9f8dd7277332d81daeb5221a394ceaf'/>
+        <property name='download.checksum.sha-256' value='0697434b5286dfc4226f2cc659e26f25d67ed2b9704439dd305f9cdba18b8c7a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.csv.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='22490'/>
+        <property name='download.size' value='22490'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.csv.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='63b2b179c76c1918e9bf084e0e573dd6'/>
+        <property name='download.checksum.md5' value='63b2b179c76c1918e9bf084e0e573dd6'/>
+        <property name='download.checksum.sha-256' value='c230927109da91d6d5f9bf72fa8934dfb9552a470d5781254d9a32647e0ebb0c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.eugenia.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26249'/>
+        <property name='download.size' value='26249'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eugenia.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='4d292c708201fcaafe71333419570a4b'/>
+        <property name='download.checksum.md5' value='4d292c708201fcaafe71333419570a4b'/>
+        <property name='download.checksum.sha-256' value='549915b9123908fe1512fbdbeff3cce002f2d778a373fb9b2ac7492af845d25b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.spreadsheets.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25957'/>
+        <property name='download.size' value='25957'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='0bd1288bdea6574c797a5ea237e75e97'/>
+        <property name='download.checksum.md5' value='0bd1288bdea6574c797a5ea237e75e97'/>
+        <property name='download.checksum.sha-256' value='d293e980d0cea60fa934b0ef660f8941afe60922c64ed4f36d248f275dab8584'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.epl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='151963'/>
+        <property name='download.size' value='151963'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.epl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='14f39c973cf7d52985af5a5ff8b1fa7d'/>
+        <property name='download.checksum.md5' value='14f39c973cf7d52985af5a5ff8b1fa7d'/>
+        <property name='download.checksum.sha-256' value='f51dae9a5b5c241578d66a199cde90e2efd8a96f056b1daae79cb4f3ef3891d7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.requirement' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='55567'/>
+        <property name='download.size' value='55567'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.requirement'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='5ed48e91c602715205966da0082d2044'/>
+        <property name='download.checksum.md5' value='5ed48e91c602715205966da0082d2044'/>
+        <property name='download.checksum.sha-256' value='dd5581999639950dabb7392a2be015b837ee71320117eb1b55efbba5711a2722'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.graphml.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='61047'/>
+        <property name='download.size' value='61047'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.graphml.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='afa8e9121930d41c2e4b904b2f975a4e'/>
+        <property name='download.checksum.md5' value='afa8e9121930d41c2e4b904b2f975a4e'/>
+        <property name='download.checksum.sha-256' value='d92ed1b8a8e9d68066230bbc308273f1a41ece97e29291a8dc4c3458980abae7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.dt.exeed' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='222005'/>
+        <property name='download.size' value='222005'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.dt.exeed'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='b77c37e06788b81008e332f54da8a6b4'/>
+        <property name='download.checksum.md5' value='b77c37e06788b81008e332f54da8a6b4'/>
+        <property name='download.checksum.sha-256' value='c773720e69ad4e983575f6d70c8ed954976d9a6f8567b4d7fbafe69dffe4385c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.hutn' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='22808'/>
+        <property name='download.size' value='22808'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.hutn'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='a38c35763b8751c62c6b4d7fa8a97015'/>
+        <property name='download.checksum.md5' value='a38c35763b8751c62c6b4d7fa8a97015'/>
+        <property name='download.checksum.sha-256' value='c71297e6917454875089ba2cd4b8f36d1ed053ad49ccdd17236022df4de3647e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.workflow.csv' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='24115'/>
+        <property name='download.size' value='24115'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.workflow.csv'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c480a62de5862767c754933425d8f88e'/>
+        <property name='download.checksum.md5' value='c480a62de5862767c754933425d8f88e'/>
+        <property name='download.checksum.sha-256' value='8b3d60ad2ea610ac187390983449533ce10cd8486840deecc017db2ebbccc067'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.etl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='75737'/>
+        <property name='download.size' value='75737'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.etl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='08a532b3d20cb2cf0f9842b160566255'/>
+        <property name='download.checksum.md5' value='08a532b3d20cb2cf0f9842b160566255'/>
+        <property name='download.checksum.sha-256' value='1861d8c5670d168be98dad4fb472fd4f8a6fbbe3d8748728981fba295b43809c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.csv.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='25936'/>
+        <property name='download.size' value='25936'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.csv.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='5c6aa8d03f41ea6bd8964c09a12ab8d5'/>
+        <property name='download.checksum.md5' value='5c6aa8d03f41ea6bd8964c09a12ab8d5'/>
+        <property name='download.checksum.sha-256' value='cf0362fe89adf697a410a81c1e2ea6e8d5cb5d0caaea21115256ff0b22ae3e25'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.dictionary.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='26040'/>
+        <property name='download.size' value='26040'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.dictionary.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='6e5e31388e9a6f7d87834694c6a341b3'/>
+        <property name='download.checksum.md5' value='6e5e31388e9a6f7d87834694c6a341b3'/>
+        <property name='download.checksum.sha-256' value='fce6c56b70a20317bd394de99a4c3488d0ec2d9688cd1a094f856fb08dd3512c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.csv' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='31243'/>
+        <property name='download.size' value='31243'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.csv'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='07295c931d10ec0f4af093c9bd8c7860'/>
+        <property name='download.checksum.md5' value='07295c931d10ec0f4af093c9bd8c7860'/>
+        <property name='download.checksum.sha-256' value='70c24e07466f1279b80810dbbc6536aad8d2aa281aed52ada3547972fa24759f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.graphml.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26038'/>
+        <property name='download.size' value='26038'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.graphml.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='19a878a20be3bc4c41b4dc989468f521'/>
+        <property name='download.checksum.md5' value='19a878a20be3bc4c41b4dc989468f521'/>
+        <property name='download.checksum.sha-256' value='ff24ac1c4478cdf911d3c75793559d0337b9ea30cc0552099172381047677e50'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.common.dt.examples' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='85223'/>
+        <property name='download.size' value='85223'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.common.dt.examples'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f4a69bac86803fe448d260c192575bbc'/>
+        <property name='download.checksum.md5' value='f4a69bac86803fe448d260c192575bbc'/>
+        <property name='download.checksum.sha-256' value='d509f8a5053f7891552afff3a2e8927b5ad95698f22562591df117c5462a5ad0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.bibtex.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='21757'/>
+        <property name='download.size' value='21757'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.bibtex.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='acceded5d796334b231197f445670346'/>
+        <property name='download.checksum.md5' value='acceded5d796334b231197f445670346'/>
+        <property name='download.checksum.sha-256' value='8014a74bfa3e8641b945df0e6b2e94b1aa10b7da10e75d5629f504b2c1d77766'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='119694'/>
+        <property name='download.size' value='119694'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='501ccc1564495d1f1451daa14bccb2fc'/>
+        <property name='download.checksum.md5' value='501ccc1564495d1f1451daa14bccb2fc'/>
+        <property name='download.checksum.sha-256' value='6195c34eb7230494f955c5eeebf66223cdda141003031937800041f24f86c475'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='96671'/>
+        <property name='download.size' value='96671'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='1ee96716905291540316b0a8942790b1'/>
+        <property name='download.checksum.md5' value='1ee96716905291540316b0a8942790b1'/>
+        <property name='download.checksum.sha-256' value='07de35d5ea3b713b1449f8389d1ef13fa98984ee6e78840379e4ab5a774554db'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.erl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='22460'/>
+        <property name='download.size' value='22460'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.erl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='5392c8cafbf088167c4b7942854ea7ae'/>
+        <property name='download.checksum.md5' value='5392c8cafbf088167c4b7942854ea7ae'/>
+        <property name='download.checksum.sha-256' value='ada110bb53dc532dac8d52535af7059e2401b9fe1b5ca91d8a0384c3ce249467'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.evl.emf.validation' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='75073'/>
+        <property name='download.size' value='75073'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.evl.emf.validation'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='a0749900ff5027f1e079f9e4e3bdd3b2'/>
+        <property name='download.checksum.md5' value='a0749900ff5027f1e079f9e4e3bdd3b2'/>
+        <property name='download.checksum.sha-256' value='f8f829cbe4e240cf974602ed83bde1fe56e6abbd0b3fe5478529d0c4d0ad67ac'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.dt.traceability.fine.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='77325'/>
+        <property name='download.size' value='77325'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.egl.dt.traceability.fine.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='e115b9f9f3c3f2edf1cd5441e6de16d5'/>
+        <property name='download.checksum.md5' value='e115b9f9f3c3f2edf1cd5441e6de16d5'/>
+        <property name='download.checksum.sha-256' value='4a753f8ced973eb24b7bfbec237081df951f4cd41961c25e6cf872d17fc73b94'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.common.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='35247'/>
+        <property name='download.size' value='35247'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.common.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='8c657b8a78b388e05fc46817a7789c50'/>
+        <property name='download.checksum.md5' value='8c657b8a78b388e05fc46817a7789c50'/>
+        <property name='download.checksum.sha-256' value='335a6ab7d7846f497190eeeed22f979f47f01e1dc5eb9ce9dc7872fb59e4ffa5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.workflow' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='81075'/>
+        <property name='download.size' value='81075'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.workflow'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f6161458197fa182dcd8f95cc98ad6e9'/>
+        <property name='download.checksum.md5' value='f6161458197fa182dcd8f95cc98ad6e9'/>
+        <property name='download.checksum.sha-256' value='18aede343ef440b33298cc50ec11b74f6ee6a9d3ab5f38d49fe569312a390ed2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.hutn.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26091'/>
+        <property name='download.size' value='26091'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='e521d93d072496035926ba9c6c5f0497'/>
+        <property name='download.checksum.md5' value='e521d93d072496035926ba9c6c5f0497'/>
+        <property name='download.checksum.sha-256' value='3f1bcf1afd51fc0e26ba891d2de7307a7a97402757f38d8c160f1e59a38360e3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.dt.traceability.editor' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='77292'/>
+        <property name='download.size' value='77292'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.egl.dt.traceability.editor'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='e783ac65d1d88d3d4b46c1d6066b362d'/>
+        <property name='download.checksum.md5' value='e783ac65d1d88d3d4b46c1d6066b362d'/>
+        <property name='download.checksum.sha-256' value='b94739ceced47d66fb0769ae45928dd9872e863873c302bdad7cd80c8ec3ecc2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emf.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26087'/>
+        <property name='download.size' value='26087'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emf.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='20b797187509c79c77de1c7f9dd4b52d'/>
+        <property name='download.checksum.md5' value='20b797187509c79c77de1c7f9dd4b52d'/>
+        <property name='download.checksum.sha-256' value='7e1ea608f97614ab89bb46441be32ae8fd4ce34fb04203003926c2f7609a07d0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eugenia.runtime.dependencies' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='14799'/>
+        <property name='download.size' value='14799'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eugenia.runtime.dependencies'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='b98454038bc565082d8068410d559dcf'/>
+        <property name='download.checksum.md5' value='b98454038bc565082d8068410d559dcf'/>
+        <property name='download.checksum.sha-256' value='26f21dd3165c3e04a6a3bfd76289ca71a19de4cd5b621e131cec2ac0ded85291'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.xmi.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='30877'/>
+        <property name='download.size' value='30877'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.xmi.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='40d6fa5fe153ff08c35a3316515a2f2d'/>
+        <property name='download.checksum.md5' value='40d6fa5fe153ff08c35a3316515a2f2d'/>
+        <property name='download.checksum.sha-256' value='746cc08f399a31473fcee3753c1e2c6bdb12224acda817914af2340e458c302f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emg.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='57852'/>
+        <property name='download.size' value='57852'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emg.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='404ad946423e78b3f27c28c6d65d0d54'/>
+        <property name='download.checksum.md5' value='404ad946423e78b3f27c28c6d65d0d54'/>
+        <property name='download.checksum.sha-256' value='ba8b1a4962cc4f496654ebfca1fe7418269028998bd3f1e3c2dd1324da5f6819'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.flexmi' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='124803'/>
+        <property name='download.size' value='124803'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flexmi'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='76f9476de8d3bf130af4e4a49864e8cc'/>
+        <property name='download.checksum.md5' value='76f9476de8d3bf130af4e4a49864e8cc'/>
+        <property name='download.checksum.sha-256' value='a0f2e9c5d08f8cb15f23d5b9a77dc387862fd49f66e798354cc810589f6dc4a7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ewl.gmf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='24226'/>
+        <property name='download.size' value='24226'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.gmf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='b134ebafdce893f04109c17ccba2772f'/>
+        <property name='download.checksum.md5' value='b134ebafdce893f04109c17ccba2772f'/>
+        <property name='download.checksum.sha-256' value='cc7e82a938a350376a1e5546a02075cfbafd2f40421fa79e818de948908f0b9f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.graphml' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='49314'/>
+        <property name='download.size' value='49314'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.graphml'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='eb2ce0c74856b18f0391eeb3fb71f91c'/>
+        <property name='download.checksum.md5' value='eb2ce0c74856b18f0391eeb3fb71f91c'/>
+        <property name='download.checksum.sha-256' value='42a9059a4cf0263ba4778b42c1a471319f82c79320f421ff1639bee273ede9c9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eunit.junit' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='20475'/>
+        <property name='download.size' value='20475'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.junit'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='4cb4ce8401c55a09205a61f517c3c7c4'/>
+        <property name='download.checksum.md5' value='4cb4ce8401c55a09205a61f517c3c7c4'/>
+        <property name='download.checksum.sha-256' value='c74d7bfca27355d3c9a0444ba797443740d905fdac64314a4eaab03e1576e397'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.plainxml' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='58411'/>
+        <property name='download.size' value='58411'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.plainxml'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f5ed2e19c04e4dcb5c3333955a7f9142'/>
+        <property name='download.checksum.md5' value='f5ed2e19c04e4dcb5c3333955a7f9142'/>
+        <property name='download.checksum.sha-256' value='5b531c223f9313a88c2948868c7eb939ef25f8127b2c4bdb76a6c6bbcd37274b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.ewl.gmf.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26062'/>
+        <property name='download.size' value='26062'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.gmf.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='5963a8da42fefb059165033cbabdaf6c'/>
+        <property name='download.checksum.md5' value='5963a8da42fefb059165033cbabdaf6c'/>
+        <property name='download.checksum.sha-256' value='5fdc4dcf192237360e9c178f4113adb792999551741f0d1eb7cf1053970d829b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.simulink.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26033'/>
+        <property name='download.size' value='26033'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.simulink.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='7a1b27114a38d690dccaa098752b8e00'/>
+        <property name='download.checksum.md5' value='7a1b27114a38d690dccaa098752b8e00'/>
+        <property name='download.checksum.sha-256' value='b9a3e84ffa017c2f7860d1678c441793f1f15f031be5f377000ea87b3968f4b7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.evl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='420467'/>
+        <property name='download.size' value='420467'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.evl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='4cc0a98a4a25ae574d4cfab54dac7c48'/>
+        <property name='download.checksum.md5' value='4cc0a98a4a25ae574d4cfab54dac7c48'/>
+        <property name='download.checksum.sha-256' value='feee4e9de6c9dfdc07d5a975e9f310b5ddfc65ff9f867ea536f304cdc3c1a35f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.eugenia' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='319422'/>
+        <property name='download.size' value='319422'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eugenia'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='029c5c86ab084d3f4749b2bd398df685'/>
+        <property name='download.checksum.md5' value='029c5c86ab084d3f4749b2bd398df685'/>
+        <property name='download.checksum.sha-256' value='1c984ffa2225e0b2a76c0e8691991a8dc1fc06051a42cc655fcecf436ffa9f26'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='600942'/>
+        <property name='download.size' value='600942'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.egl.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='5890f18e1438bc279142417d59329796'/>
+        <property name='download.checksum.md5' value='5890f18e1438bc279142417d59329796'/>
+        <property name='download.checksum.sha-256' value='fdf3c0191fa9e154d84d3cc134f010a67c63f7513962069f99db6d28a77995b1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.evl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='101957'/>
+        <property name='download.size' value='101957'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.evl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='212aa8abd2611c8c6a1949b9d748f1bf'/>
+        <property name='download.checksum.md5' value='212aa8abd2611c8c6a1949b9d748f1bf'/>
+        <property name='download.checksum.sha-256' value='6b3ba17f77c99a42ec44981a80c089e17a191241cded070e770f96e539e2c45a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ewl.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='112204'/>
+        <property name='download.size' value='112204'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='dd44d5ae847f72ab7d6c72b12c4995c3'/>
+        <property name='download.checksum.md5' value='dd44d5ae847f72ab7d6c72b12c4995c3'/>
+        <property name='download.checksum.sha-256' value='c3993a3844f0b1db36da6f0b80f00b00fec0159d2fe85502bf7b9688361fc552'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.ewl.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='112049'/>
+        <property name='download.size' value='112049'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='61073192196584545ce42340a0967a9f'/>
+        <property name='download.checksum.md5' value='61073192196584545ce42340a0967a9f'/>
+        <property name='download.checksum.sha-256' value='d8b720702c8e864c26e4aa5417059d15ec1e1bd6d224c6ba4c3b8f1f5f41f507'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='30062'/>
+        <property name='download.size' value='30062'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f9eb1672ffb55772f53a7a06f16373ad'/>
+        <property name='download.checksum.md5' value='f9eb1672ffb55772f53a7a06f16373ad'/>
+        <property name='download.checksum.sha-256' value='865710246a9396f522b3b7a2f6561fd79eb3980dae432b52dfacfa1ddfa6fff4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.spreadsheets.google.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26009'/>
+        <property name='download.size' value='26009'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.google.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='e6901093918c57dca237dace151ed901'/>
+        <property name='download.checksum.md5' value='e6901093918c57dca237dace151ed901'/>
+        <property name='download.checksum.sha-256' value='c166a7c39e48865c8b48384916bfba8dc2347216b988061428aef7415183d874'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.ewl.emf.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26063'/>
+        <property name='download.size' value='26063'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.ewl.emf.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='c47ceb52853eeaeeee11278243d81e20'/>
+        <property name='download.checksum.md5' value='c47ceb52853eeaeeee11278243d81e20'/>
+        <property name='download.checksum.sha-256' value='84b67b2e7fc8c927b41e73dddd65ace405c286073ec2d8f11ac8b06fd6adde7b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.model.antlrAst' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='82017'/>
+        <property name='download.size' value='82017'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.model.antlrAst'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='dc473d7d5a40c7c01dec3adea696d0f4'/>
+        <property name='download.checksum.md5' value='dc473d7d5a40c7c01dec3adea696d0f4'/>
+        <property name='download.checksum.sha-256' value='ad8173d9f2c7cd895d55e8f3e75208a7f03ef6a3add4e0d120e8e637cc487065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.emc.spreadsheets.google.dt.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26004'/>
+        <property name='download.size' value='26004'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.spreadsheets.google.dt.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='4615643bfa2882d4ae0f71de13755afb'/>
+        <property name='download.checksum.md5' value='4615643bfa2882d4ae0f71de13755afb'/>
+        <property name='download.checksum.sha-256' value='62a3a88978495f6981d0308c1c2e59fe4a8c2a2677fed1c387c20bd46deb8042'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.flock.dt.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='160799'/>
+        <property name='download.size' value='160799'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flock.dt.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='f1684184a30c9c5b06ab6333e3049d75'/>
+        <property name='download.checksum.md5' value='f1684184a30c9c5b06ab6333e3049d75'/>
+        <property name='download.checksum.sha-256' value='f93198b6e95caa4b99101c30d4cbb3edfdaf432b90543ed7ab6328456b1c5c75'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epsilon.eunit.dt.emf.feature' version='2.2.0.202009032353'>
+      <properties size='9'>
+        <property name='artifact.size' value='26082'/>
+        <property name='download.size' value='26082'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.eunit.dt.emf.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='d5802d82e6065c456ec68ce25e255460'/>
+        <property name='download.checksum.md5' value='d5802d82e6065c456ec68ce25e255460'/>
+        <property name='download.checksum.sha-256' value='a3b58cc92d0aba67ab72b623f0fab3803dbeb73cc86e9852de844854948c38cf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.workflow.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='29037'/>
+        <property name='download.size' value='29037'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.workflow.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='eb447dfb0f7e024de383821b3f967bac'/>
+        <property name='download.checksum.md5' value='eb447dfb0f7e024de383821b3f967bac'/>
+        <property name='download.checksum.sha-256' value='2cd4297cf3cc530ab24b4fb541b0c09e620b0ad5dfd3a80f099f7cfdabd3bbc5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.workflow.eugenia' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='25472'/>
+        <property name='download.size' value='25472'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.workflow.eugenia'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='45efc6ae39745c7f0abb75f7a2dfaa54'/>
+        <property name='download.checksum.md5' value='45efc6ae39745c7f0abb75f7a2dfaa54'/>
+        <property name='download.checksum.sha-256' value='d9b084e09630409ab79e7affe528ff86ec957c8b362e6f045e6466bf1ccf27c9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.antlr.postprocessor' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='19572'/>
+        <property name='download.size' value='19572'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.antlr.postprocessor'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='35a02d20e98301fd9d65d2451eb98f56'/>
+        <property name='download.checksum.md5' value='35a02d20e98301fd9d65d2451eb98f56'/>
+        <property name='download.checksum.sha-256' value='c5e000a4f57b5d781051a39a154d36aae1ce1b4d713c67041b7894fde6a10d70'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.model.config' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='64634'/>
+        <property name='download.size' value='64634'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.model.config'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='c982b244a4da79cf881950cffd11cdda'/>
+        <property name='download.checksum.md5' value='c982b244a4da79cf881950cffd11cdda'/>
+        <property name='download.checksum.sha-256' value='9b4c00276070e9d67308b92c55d1d8be5a5479011b8efb43bd78b49e6b67cb17'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.pinset.engine' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='375282'/>
+        <property name='download.size' value='375282'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.pinset.engine'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='031f9b5705f0fad5ffa765029cbc45aa'/>
+        <property name='download.checksum.md5' value='031f9b5705f0fad5ffa765029cbc45aa'/>
+        <property name='download.checksum.sha-256' value='de61d5b0b36ee7d609dc5de37f76924a74fdf3e86d14b0690a41a17377a45d7e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.simulink.requirement.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='25999'/>
+        <property name='download.size' value='25999'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.simulink.requirement.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='3838dc345d7d8e325f8b65337779678d'/>
+        <property name='download.checksum.md5' value='3838dc345d7d8e325f8b65337779678d'/>
+        <property name='download.checksum.sha-256' value='308361136bfab7ad7bd4dcaf239b9205a97a2dcf1e1b0b037ae9d79a9f8c42f3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.flock.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='173548'/>
+        <property name='download.size' value='173548'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.flock.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='349b94e1641212f863acbd42257a6189'/>
+        <property name='download.checksum.md5' value='349b94e1641212f863acbd42257a6189'/>
+        <property name='download.checksum.sha-256' value='5bd3e7f38fba614eea9bb0d853521105bfb3da0d10b75f9d16ba8b7e629cb2b2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.hutn.xmi' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='80149'/>
+        <property name='download.size' value='80149'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.hutn.xmi'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='e8a604b08c428bf513c8168e20988840'/>
+        <property name='download.checksum.md5' value='e8a604b08c428bf513c8168e20988840'/>
+        <property name='download.checksum.sha-256' value='8109e3f0f95745b6334378f1b4cbe92ec1dd37ef51d03d43e06df72377b227a5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.pinset.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='118488'/>
+        <property name='download.size' value='118488'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.pinset.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='fef544a4c40e253d52a85a00c101b0eb'/>
+        <property name='download.checksum.md5' value='fef544a4c40e253d52a85a00c101b0eb'/>
+        <property name='download.checksum.sha-256' value='6e0404a99bb3d6f51db82320d0bb85f6e65a7df23995285bbc497bc65b240969'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emg.dt' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='209712'/>
+        <property name='download.size' value='209712'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emg.dt'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='1c238028a65b5ef3c026b3e4722cc964'/>
+        <property name='download.checksum.md5' value='1c238028a65b5ef3c026b3e4722cc964'/>
+        <property name='download.checksum.sha-256' value='04ebc56f5db554d41be4bb0b91ce586b66f2dfc0f4057d0ba6785e92c1d3fac2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.uml' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='17542'/>
+        <property name='download.size' value='17542'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.uml'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='ea88c4482d57fac3e21d6d88863492a7'/>
+        <property name='download.checksum.md5' value='ea88c4482d57fac3e21d6d88863492a7'/>
+        <property name='download.checksum.sha-256' value='e8fbe4bef59eb6bdd6ad579711316cea74db0876201afed29a3e0c9ac574c111'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.emc.emf' version='2.2.0.202009032353'>
+      <properties size='8'>
+        <property name='artifact.size' value='139067'/>
+        <property name='download.size' value='139067'/>
+        <property name='maven-groupId' value='org.eclipse.epsilon'/>
+        <property name='maven-artifactId' value='org.eclipse.epsilon.emc.emf'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.md5' value='50a19f8f265735f190e4ca3b40db70fd'/>
+        <property name='download.checksum.md5' value='50a19f8f265735f190e4ca3b40db70fd'/>
+        <property name='download.checksum.sha-256' value='afb2266bba296acee54a850c48087618384c6812ca7a826315fd8b9d25003fef'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

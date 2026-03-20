@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas:CanvasBusinessModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:canvas="http://www.kybele.es/projects/elastic/models/canvas/0.1">
+  <canvasDiagram>
+    <hasKeyPartnersAnnotations content="Supervisors"/>
+    <hasKeyPartnersAnnotations content="Corporate &#xD;&#xA;Applications Area"/>
+    <hasKeyPartnersAnnotations content="Copy detection &#xD;&#xA;software company"/>
+    <hasKeyActivitiesAnnotations content="Publish project offers"/>
+    <hasKeyActivitiesAnnotations content="Assign projects"/>
+    <hasKeyActivitiesAnnotations content="Publish grade"/>
+    <hasKeyResourcesAnnotations content="Web app"/>
+    <hasKeyResourcesAnnotations content="Employee experience"/>
+    <hasValuePropositionsAnnotations content="Efficient undergraduate &#xD;&#xA;thesis management"/>
+    <hasCustomerRelationshipsAnnotations content="Personalized assistance"/>
+    <hasChannelsAnnotations content="Web app"/>
+    <hasChannelsAnnotations content="Email"/>
+    <hasChannelsAnnotations content="Telephone"/>
+    <hasCustomerSegmentsAnnotations content="Senior students"/>
+    <hasCostStructureAnnotations content="Payment to &#xD;&#xA;employees"/>
+    <hasCostStructureAnnotations content="Payment to Corporate &#xD;&#xA;Applications Area"/>
+    <hasCostStructureAnnotations content="Payment to copy &#xD;&#xA;detection software &#xD;&#xA;company"/>
+    <hasRevenueStreamsAnnotations content="Students tuition"/>
+    <hasRevenueStreamsAnnotations content="Public financing"/>
+  </canvasDiagram>
+</canvas:CanvasBusinessModel>

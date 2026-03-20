@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/finalThesis_examples/finalThesis_models/e3valueExample_output.serviceblueprint" element2="/finalThesis_examples/finalThesis_models/e3valueExample_traceE3value2SBP_output.tracemodel" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1658914392082"/>
+</session>

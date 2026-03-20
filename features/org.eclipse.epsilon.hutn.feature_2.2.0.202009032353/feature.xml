@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epsilon.hutn.feature"
+      label="Human Usable Textual Notation Core"
+      version="2.2.0.202009032353"
+      provider-name="Eclipse Modeling Project">
+
+   <description url="http://www.eclipse.org/epsilon">
+      This feature provides an Epsilon Model Connectivity driver for models written in the standard OMG HUTN textual notation. This is required in order to load and save HUTN models in Epsilon.
+   </description>
+
+   <copyright>
+        Copyright (c) 2018 The University of York.
+        This program and the accompanying materials are made
+        available under the terms of the Eclipse Public License 2.0
+        which is available at https://www.eclipse.org/legal/epl-2.0
+   </copyright>
+   
+   <includes id="org.eclipse.epsilon.emf.feature" version="2.2.0.202009032353"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.engine"
+         download-size="199"
+         install-size="542"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.model"
+         download-size="123"
+         install-size="426"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.model.antlrAst"
+         download-size="80"
+         install-size="204"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.model.config"
+         download-size="63"
+         install-size="147"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.xmi"
+         download-size="78"
+         install-size="159"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.hutn.unparser"
+         download-size="32"
+         install-size="60"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.emc.hutn"
+         download-size="22"
+         install-size="46"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.antlr.postprocessor"
+         download-size="19"
+         install-size="35"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epsilon.antlr.postprocessor.model"
+         download-size="56"
+         install-size="132"
+         version="2.2.0.202009032353"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

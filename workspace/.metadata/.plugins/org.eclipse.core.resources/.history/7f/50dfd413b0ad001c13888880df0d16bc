@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="\finalThesis_examples\finalThesis_models\canvasExample.canvas" position="LEFT" />
+  <model path="\finalThesis_examples\trace_models\traceCanvas2e3value.tracemodel" position="MIDDLE" />
+  <model path="\finalThesis_examples\finalThesis_models\canvasExample_output.e3value" position="RIGHT" />
+</modelink>
+

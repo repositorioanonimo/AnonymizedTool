@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pcn:PCNDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pcn="http://www.kybele.es/elastic/models/pcn/1.0">
+  <diagramEntities name="Student" order="1">
+    <centerIndependentInteractionsActivities xsi:type="pcn:PCNStandardStep" action="Enrolls in undergraduate thesis project" PCNStandardDependency="//@diagramEntities.0/@rightSurrogateInteractions.0">
+      <monetaryBenefits/>
+    </centerIndependentInteractionsActivities>
+    <centerIndependentInteractionsActivities xsi:type="pcn:PCNDoAndWaitStep" PCNStandardDependencySource="//@diagramEntities.0/@rightSurrogateInteractions.0" action="Chooses tutor and project" PCNStandardDependency="//@diagramEntities.1/@rightSurrogateInteractions.0"/>
+    <centerIndependentInteractionsActivities xsi:type="pcn:PCNStandardStep" PCNStandardDependencySource="//@diagramEntities.2/@rightSurrogateInteractions.0" PCNNegativeDecisionSource="//@diagramEntities.1/@leftSurrogateInteractions.0" action="Carries out his undergraduate thesis" PCNStandardDependency="//@diagramEntities.0/@rightSurrogateInteractions.1"/>
+    <centerIndependentInteractionsActivities xsi:type="pcn:PCNStandardStep" PCNStandardDependencySource="//@diagramEntities.1/@leftSurrogateInteractions.1" action="Carries out thesis defense">
+      <nonMonetaryBenefits/>
+    </centerIndependentInteractionsActivities>
+    <rightSurrogateInteractions xsi:type="pcn:PCNStandardStep" PCNStandardDependencySource="//@diagramEntities.0/@centerIndependentInteractionsActivities.0" action="Sees the list of tutors and projects" PCNStandardDependency="//@diagramEntities.0/@centerIndependentInteractionsActivities.1"/>
+    <rightSurrogateInteractions xsi:type="pcn:PCNStandardStep" PCNStandardDependencySource="//@diagramEntities.0/@centerIndependentInteractionsActivities.2" action="Uploads project document" PCNStandardDependency="//@diagramEntities.0/@rightSurrogateInteractions.2"/>
+    <rightSurrogateInteractions xsi:type="pcn:PCNDoAndWaitStep" PCNStandardDependencySource="//@diagramEntities.0/@rightSurrogateInteractions.1" action="Request thesis defense" PCNStandardDependency="//@diagramEntities.1/@leftSurrogateInteractions.0"/>
+  </diagramEntities>
+  <diagramEntities name="Supervisor" order="2">
+    <leftSurrogateInteractions xsi:type="pcn:PCNDecisionStep" PCNStandardDependencySource="//@diagramEntities.0/@rightSurrogateInteractions.2" action="Authorizes thesis defense" PCNPositiveDecision="//@diagramEntities.1/@leftSurrogateInteractions.1" PCNNegativeDecision="//@diagramEntities.0/@centerIndependentInteractionsActivities.2"/>
+    <leftSurrogateInteractions xsi:type="pcn:PCNStandardStep" PCNPositiveDecisionSource="//@diagramEntities.1/@leftSurrogateInteractions.0" action="Proposes committee" PCNStandardDependency="//@diagramEntities.0/@centerIndependentInteractionsActivities.3"/>
+    <rightSurrogateInteractions xsi:type="pcn:PCNDoAndWaitStep" PCNStandardDependencySource="//@diagramEntities.0/@centerIndependentInteractionsActivities.1" action="Request project registration" PCNStandardDependency="//@diagramEntities.2/@rightSurrogateInteractions.0"/>
+  </diagramEntities>
+  <diagramEntities name="Unit of Undergraduate Thesis" order="3">
+    <rightSurrogateInteractions xsi:type="pcn:PCNStandardStep" PCNStandardDependencySource="//@diagramEntities.1/@rightSurrogateInteractions.0" action="Validates registration" PCNStandardDependency="//@diagramEntities.0/@centerIndependentInteractionsActivities.2"/>
+  </diagramEntities>
+</pcn:PCNDiagram>

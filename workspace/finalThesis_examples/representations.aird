@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.example.org/bpmn" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_S2waoPZgEemHq-FDL-54zA" selectedViews="_yZ-w0PZgEemHq-FDL-54zA" version="14.3.1.202003261200">
+    <semanticResources>trace_models/tracePcn2bpmn.tracemodel</semanticResources>
+    <semanticResources>trace_models/traceSbp2pcn.tracemodel</semanticResources>
+    <semanticResources>finalThesis_models/bpmnExample.bpmn</semanticResources>
+    <semanticResources>finalThesis_models/canvasExample.canvas</semanticResources>
+    <semanticResources>finalThesis_models/canvasExample.canvas_diagram</semanticResources>
+    <semanticResources>finalThesis_models/e3valueExample.e3value</semanticResources>
+    <semanticResources>finalThesis_models/e3valueExample.e3value_diagram</semanticResources>
+    <semanticResources>finalThesis_models/pcnExample.pcn</semanticResources>
+    <semanticResources>finalThesis_models/pcnExample.pcn_diagram</semanticResources>
+    <semanticResources>finalThesis_models/sbpExample.serviceblueprint</semanticResources>
+    <semanticResources>finalThesis_models/sbpExample.serviceblueprint_diagram</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_yZ-w0PZgEemHq-FDL-54zA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DB-0ba2rEeyIsObrBcv8Ew" name="bpmnExample" repPath="#_rUuMEPZlEemHq-FDL-54zA" changeId="024a7c23-b84b-4300-9ce6-81c1daffecfd">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']"/>
+        <target xmi:type="bpmn:BPMN" href="finalThesis_models/bpmnExample.bpmn#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_rUuMEPZlEemHq-FDL-54zA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rUuMEfZlEemHq-FDL-54zA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_rUuMEvZlEemHq-FDL-54zA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rUxPYPZlEemHq-FDL-54zA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rUxPYfZlEemHq-FDL-54zA" type="Sirius" element="_rUuMEPZlEemHq-FDL-54zA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_uSJmgPZlEemHq-FDL-54zA" type="2002" element="_uR02YPZlEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_uSMp0PZlEemHq-FDL-54zA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_uSMp0fZlEemHq-FDL-54zA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_v_VhEPZlEemHq-FDL-54zA" type="3008" element="_v_NlQPZlEemHq-FDL-54zA">
+              <children xmi:type="notation:Node" xmi:id="_v_VhE_ZlEemHq-FDL-54zA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_v_WIIPZlEemHq-FDL-54zA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_6i60kPZlEemHq-FDL-54zA" type="3008" element="_6i3xQPZlEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_6i60k_ZlEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_6i60lPZlEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_D4eOsPZmEemHq-FDL-54zA" type="3007" element="_D4YvIPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_D4fc0PZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_D4fc0fZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Epc_sPZmEemHq-FDL-54zA" type="3005" element="_EpbKgPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_Epc_sfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Epc_svZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_D4eOsfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D4eOsvZmEemHq-FDL-54zA" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_6i60lfZlEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_6i60lvZlEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_6i60kfZlEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6i60kvZlEemHq-FDL-54zA" x="81" y="44"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_HwRmsPZmEemHq-FDL-54zA" type="3008" element="_HwJD0PZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_HwRms_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_HwRmtPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_iFaucPZmEemHq-FDL-54zA" type="3007" element="_iFY5QPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_iFauc_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iFaudPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_iutjEPZmEemHq-FDL-54zA" type="3005" element="_iuqfwPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iutjEfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iutjEvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iFaucfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFaucvZmEemHq-FDL-54zA" x="4" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_HwRmtfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_HwRmtvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_HwRmsfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwRmsvZmEemHq-FDL-54zA" x="81" y="139"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_K1sfgPZmEemHq-FDL-54zA" type="3008" element="_K1qDQPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_K1sfg_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_K1tGkPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_jrUVQPZmEemHq-FDL-54zA" type="3007" element="_jrRR8PZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_jrUVQ_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_jrUVRPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_lnHTkPZmEemHq-FDL-54zA" type="3005" element="_lnE3UPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_lnHTkfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lnHTkvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_jrUVQfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jrUVQvZmEemHq-FDL-54zA" x="5" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_K1tGkfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_K1tGkvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_K1sfgfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1sfgvZmEemHq-FDL-54zA" x="363" y="139"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_OYAIoPZmEemHq-FDL-54zA" type="3008" element="_OX9FUPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_OYAIo_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_OYAIpPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_j6h18PZmEemHq-FDL-54zA" type="3007" element="_j6eyoPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_j6h18_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_j6h19PZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_mscj8PZmEemHq-FDL-54zA" type="3005" element="_msZgoPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_mscj8fZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mscj8vZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_j6h18fZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j6h18vZmEemHq-FDL-54zA" x="5" y="39" width="17" height="14"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_OYAIpfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_OYAIpvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_OYAIofZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYAIovZmEemHq-FDL-54zA" x="678" y="139"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Q9vb0PZmEemHq-FDL-54zA" type="3008" element="_Q9sYgPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_Q9vb0_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_Q9vb1PZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_jzpx4PZmEemHq-FDL-54zA" type="3007" element="_jzn8sPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_jzqY8PZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_jzqY8fZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_oVryoPZmEemHq-FDL-54zA" type="3005" element="_oVovUPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_oVryofZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVryovZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_jzpx4fZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzpx4vZmEemHq-FDL-54zA" x="8" y="41" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_Q9vb1fZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_Q9vb1vZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Q9vb0fZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q9vb0vZmEemHq-FDL-54zA" x="678" y="36"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_SvOnkPZmEemHq-FDL-54zA" type="3008" element="_SvMLUPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_SvOnk_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_SvOnlPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_j_oYYPZmEemHq-FDL-54zA" type="3007" element="_j_lVEPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_j_oYY_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_j_oYZPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_j_o_cPZmEemHq-FDL-54zA" type="3005" element="_j_lVEfZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_j_o_cfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j_o_cvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_j_oYYfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j_oYYvZmEemHq-FDL-54zA" y="41" width="20" height="13"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_SvOnlfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_SvOnlvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_SvOnkfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SvOnkvZmEemHq-FDL-54zA" x="923" y="37"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_UWGewPZmEemHq-FDL-54zA" type="3008" element="_UWECgPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_UWHF0PZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_UWHF0fZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_kKe9gPZmEemHq-FDL-54zA" type="3007" element="_kKb6MPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_kKe9g_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_kKe9hPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_qc6k4PZmEemHq-FDL-54zA" type="3005" element="_qc4vsPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_qc6k4fZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qc6k4vZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_kKe9gfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kKe9gvZmEemHq-FDL-54zA" x="5" y="39" width="17" height="14"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_UWHF0vZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_UWHF0_ZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_UWGewfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UWGewvZmEemHq-FDL-54zA" x="1084" y="133"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_3-n2YPZmEemHq-FDL-54zA" type="3007" element="_3-laIPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_3-odcPZmEemHq-FDL-54zA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_3-odcfZmEemHq-FDL-54zA" x="-1"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_3-pEgPZmEemHq-FDL-54zA" type="3005" element="_3-laIfZmEemHq-FDL-54zA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_3-pEgfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-pEgvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_3-n2YfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3-n2YvZmEemHq-FDL-54zA" x="1" y="44" width="60" height="54"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_6jV14PZmEemHq-FDL-54zA" type="3007" element="_6jSykPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_6jV14_ZmEemHq-FDL-54zA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_6jV15PZmEemHq-FDL-54zA" y="-21"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7ozCEPZmEemHq-FDL-54zA" type="3005" element="_7owl0PZmEemHq-FDL-54zA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7ozCEfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ozCEvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_6jV14fZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6jV14vZmEemHq-FDL-54zA" x="1116" y="29" width="66" height="57"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_szPPpq2sEeyIsObrBcv8Ew" type="3007" element="_szGFmq2sEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_szPPqa2sEeyIsObrBcv8Ew" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_szPPqq2sEeyIsObrBcv8Ew" y="-22"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_sza1kK2sEeyIsObrBcv8Ew" type="3005" element="_szGFm62sEeyIsObrBcv8Ew">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_sza1ka2sEeyIsObrBcv8Ew" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sza1kq2sEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_szPPp62sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_szPPqK2sEeyIsObrBcv8Ew" x="587" y="144" width="60" height="58"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1Hwq3a2sEeyIsObrBcv8Ew" type="3007" element="_1Hwqeq2sEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_1Hwq4K2sEeyIsObrBcv8Ew" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_1Hwq4a2sEeyIsObrBcv8Ew" x="3" y="-22"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_1Hwq4q2sEeyIsObrBcv8Ew" type="3005" element="_1Hwqe62sEeyIsObrBcv8Ew">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_1Hwq462sEeyIsObrBcv8Ew" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Hwq5K2sEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1Hwq3q2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Hwq362sEeyIsObrBcv8Ew" x="993" y="144" width="60" height="58"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_v_WIIfZlEemHq-FDL-54zA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_v_WIIvZlEemHq-FDL-54zA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v_VhEfZlEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_VhEvZlEemHq-FDL-54zA" x="9" y="34" width="1451" height="271"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xHPkUPZlEemHq-FDL-54zA" type="3008" element="_xHMhAPZlEemHq-FDL-54zA">
+              <children xmi:type="notation:Node" xmi:id="_xHPkU_ZlEemHq-FDL-54zA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_xHPkVPZlEemHq-FDL-54zA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_WYB6QPZmEemHq-FDL-54zA" type="3008" element="_WYAFEPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_WYChUPZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_WYChUfZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_kjTtMPZmEemHq-FDL-54zA" type="3007" element="_kjQp4PZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_kjTtM_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_kjTtNPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_kjUUQPZmEemHq-FDL-54zA" type="3005" element="_kjQp4fZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_kjUUQfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjUUQvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_kjTtMfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjTtMvZmEemHq-FDL-54zA" y="44" width="20" height="13"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_WYChUvZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_WYChU_ZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_WYB6QfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WYB6QvZmEemHq-FDL-54zA" x="320" y="47"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_YQFoEPZmEemHq-FDL-54zA" type="3008" element="_YQCkwPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_YQFoE_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_YQFoFPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_kV_C4PZmEemHq-FDL-54zA" type="3007" element="_kV7_kPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_kV_C4_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_kV_C5PZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_rqUMIPZmEemHq-FDL-54zA" type="3005" element="_rqRv4PZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_rqUMIfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rqUMIvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_kV_C4fZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kV_C4vZmEemHq-FDL-54zA" x="4" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_YQFoFfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_YQFoFvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_YQFoEfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YQFoEvZmEemHq-FDL-54zA" x="881" y="19"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dN3wsPZmEemHq-FDL-54zA" type="3008" element="_dN0tYPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_dN3ws_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_dN4XwPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_kQiiMPZmEemHq-FDL-54zA" type="3007" element="_kQfe4PZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_kQiiM_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_kQiiNPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_s37OwPZmEemHq-FDL-54zA" type="3005" element="_s35ZkPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_s37OwfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s37OwvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_kQiiMfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kQiiMvZmEemHq-FDL-54zA" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_dN4XwfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_dN4XwvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dN3wsfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dN3wsvZmEemHq-FDL-54zA" x="1104" y="19"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1PdhcPZmEemHq-FDL-54zA" type="3007" element="_1PbsQPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_1Pdhc_ZmEemHq-FDL-54zA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_1PdhdPZmEemHq-FDL-54zA" y="-21"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_1PdhdfZmEemHq-FDL-54zA" type="3005" element="_1PbsQfZmEemHq-FDL-54zA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_1PdhdvZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Pdhd_ZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1PdhcfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1PdhcvZmEemHq-FDL-54zA" x="745" y="24" width="60" height="57"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_W4qssPZnEemHq-FDL-54zA" type="3007" element="_W4l0MPZnEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_W4qss_ZnEemHq-FDL-54zA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_W4qstPZnEemHq-FDL-54zA" y="-21"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_W4twAPZnEemHq-FDL-54zA" type="3005" element="_W4nCUPZnEemHq-FDL-54zA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_W4twAfZnEemHq-FDL-54zA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W4twAvZnEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_W4qssfZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W4qssvZnEemHq-FDL-54zA" x="945" y="121" width="59" height="58"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_8eRk4K2sEeyIsObrBcv8Ew" type="3007" element="_8eH0Hq2sEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_8eRk462sEeyIsObrBcv8Ew" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_8eRk5K2sEeyIsObrBcv8Ew" y="-22"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_8eRk5a2sEeyIsObrBcv8Ew" type="3005" element="_8eH0H62sEeyIsObrBcv8Ew">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_8eRk5q2sEeyIsObrBcv8Ew" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8eRk562sEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_8eRk4a2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8eRk4q2sEeyIsObrBcv8Ew" x="236" y="53" width="60" height="58"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IFHsy62tEeyIsObrBcv8Ew" type="3007" element="_IFHsaq2tEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_IFHszq2tEeyIsObrBcv8Ew" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_IFHsz62tEeyIsObrBcv8Ew" y="-22"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KetaW62tEeyIsObrBcv8Ew" type="3005" element="_KetZ-62tEeyIsObrBcv8Ew">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KetaXK2tEeyIsObrBcv8Ew" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KetaXa2tEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_IFHszK2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IFHsza2tEeyIsObrBcv8Ew" x="1300" y="30" width="66" height="57"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_TGDDna2tEeyIsObrBcv8Ew" type="3008" element="_TGDDMq2tEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_TGDDoK2tEeyIsObrBcv8Ew" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_TGDDoa2tEeyIsObrBcv8Ew" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_TGDDoq2tEeyIsObrBcv8Ew"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_TGDDo62tEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_TGDDnq2tEeyIsObrBcv8Ew" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGDDn62tEeyIsObrBcv8Ew" x="614" y="116"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_xHPkVfZlEemHq-FDL-54zA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_xHPkVvZlEemHq-FDL-54zA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xHPkUfZlEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xHPkUvZlEemHq-FDL-54zA" x="10" y="309" width="1449" height="231"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_x4AS4PZlEemHq-FDL-54zA" type="3008" element="_x39PkPZlEemHq-FDL-54zA">
+              <children xmi:type="notation:Node" xmi:id="_x4AS4_ZlEemHq-FDL-54zA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_x4AS5PZlEemHq-FDL-54zA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_fE_qYPZmEemHq-FDL-54zA" type="3008" element="_fE9OIPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_fE_qY_ZmEemHq-FDL-54zA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_fE_qZPZmEemHq-FDL-54zA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_keNKwPZmEemHq-FDL-54zA" type="3007" element="_keHEIPZmEemHq-FDL-54zA">
+                      <children xmi:type="notation:Node" xmi:id="_keNKw_ZmEemHq-FDL-54zA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_keNKxPZmEemHq-FDL-54zA" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_tnXusPZmEemHq-FDL-54zA" type="3005" element="_tnWgkPZmEemHq-FDL-54zA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_tnXusfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tnXusvZmEemHq-FDL-54zA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_keNKwfZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_keNKwvZmEemHq-FDL-54zA" x="5" y="39" width="16" height="16"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_fE_qZfZmEemHq-FDL-54zA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_fE_qZvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_fE_qYfZmEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fE_qYvZmEemHq-FDL-54zA" x="496" y="19"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_y6cx4PZmEemHq-FDL-54zA" type="3007" element="_y6a8sPZmEemHq-FDL-54zA">
+                  <children xmi:type="notation:Node" xmi:id="_y6cx4_ZmEemHq-FDL-54zA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_y6cx5PZmEemHq-FDL-54zA" y="-21"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_y6gcQPZmEemHq-FDL-54zA" type="3005" element="_y6a8sfZmEemHq-FDL-54zA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_y6gcQfZmEemHq-FDL-54zA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y6gcQvZmEemHq-FDL-54zA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_y6cx4fZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y6cx4vZmEemHq-FDL-54zA" x="405" y="24" width="60" height="57"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_etwtp62tEeyIsObrBcv8Ew" type="3007" element="_etwtRq2tEeyIsObrBcv8Ew">
+                  <children xmi:type="notation:Node" xmi:id="_etwtqq2tEeyIsObrBcv8Ew" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_etwtq62tEeyIsObrBcv8Ew" y="-22"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_f-yQp62tEeyIsObrBcv8Ew" type="3005" element="_f-yQR62tEeyIsObrBcv8Ew">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_f-yQqK2tEeyIsObrBcv8Ew" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-yQqa2tEeyIsObrBcv8Ew"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_etwtqK2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etwtqa2tEeyIsObrBcv8Ew" x="706" y="30" width="66" height="57"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_x4AS5fZlEemHq-FDL-54zA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_x4AS5vZlEemHq-FDL-54zA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_x4AS4fZlEemHq-FDL-54zA" fontColor="2697711" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x4AS4vZlEemHq-FDL-54zA" x="9" y="544" width="1444" height="211"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_uSMp0vZlEemHq-FDL-54zA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_uSMp0_ZlEemHq-FDL-54zA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uSJmgfZlEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uSJmgvZlEemHq-FDL-54zA" x="10" y="20" width="1631" height="836"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rUxPYvZlEemHq-FDL-54zA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_-_2dcPZmEemHq-FDL-54zA" type="4001" element="_-_lXsPZmEemHq-FDL-54zA" source="_3-n2YPZmEemHq-FDL-54zA" target="_6i60kPZlEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_-_3rkPZmEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_3rkfZmEemHq-FDL-54zA" x="-2" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-_4SoPZmEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_4SofZmEemHq-FDL-54zA" x="-3" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-_4SovZmEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_4So_ZmEemHq-FDL-54zA" x="-3" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_2dcfZmEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-_2dcvZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_2dc_ZmEemHq-FDL-54zA" points="[-1, 8, -21, -1]$[20, 8, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_5gwPZmEemHq-FDL-54zA" id="(1.0,0.37037037037037035)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_5gwfZmEemHq-FDL-54zA" id="(0.0,0.42857142857142855)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__XzqcPZmEemHq-FDL-54zA" type="4001" element="__Xp5cPZmEemHq-FDL-54zA" source="_6i60kPZlEemHq-FDL-54zA" target="_HwRmsPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="__X0RgPZmEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__X0RgfZmEemHq-FDL-54zA" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__X0RgvZmEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__X0Rg_ZmEemHq-FDL-54zA" x="-5" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__X0RhPZmEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__X0RhfZmEemHq-FDL-54zA" x="-4" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__XzqcfZmEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__XzqcvZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__Xzqc_ZmEemHq-FDL-54zA" points="[0, 9, 0, -27]$[0, 36, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__X0RhvZmEemHq-FDL-54zA" id="(0.46308724832214765,0.8676470588235294)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__X0Rh_ZmEemHq-FDL-54zA" id="(0.5337078651685393,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__74A0PZmEemHq-FDL-54zA" type="4001" element="__7xTIPZmEemHq-FDL-54zA" source="_HwRmsPZmEemHq-FDL-54zA" target="_K1sfgPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="__74A1PZmEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__74A1fZmEemHq-FDL-54zA" x="2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__74A1vZmEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__74A1_ZmEemHq-FDL-54zA" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__74A2PZmEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__74A2fZmEemHq-FDL-54zA" x="-7" y="39"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__74A0fZmEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__74A0vZmEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__74A0_ZmEemHq-FDL-54zA" points="[0, 0, -23, 4]$[23, -4, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__74A2vZmEemHq-FDL-54zA" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__74A2_ZmEemHq-FDL-54zA" id="(0.0,0.4411764705882353)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_A4RXoPZnEemHq-FDL-54zA" type="4001" element="_A4LRAPZnEemHq-FDL-54zA" source="_y6cx4PZmEemHq-FDL-54zA" target="_fE_qYPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_A4RXpPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4RXpfZnEemHq-FDL-54zA" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A4RXpvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4RXp_ZnEemHq-FDL-54zA" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A4RXqPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4RXqfZnEemHq-FDL-54zA" x="-7" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_A4RXofZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_A4RXovZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A4RXo_ZnEemHq-FDL-54zA" points="[0, 0, -31, 0]$[31, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A4RXqvZnEemHq-FDL-54zA" id="(1.0,0.5087719298245614)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A4RXq_ZnEemHq-FDL-54zA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CEONYPZnEemHq-FDL-54zA" type="4001" element="_CEEcYPZnEemHq-FDL-54zA" source="_OYAIoPZmEemHq-FDL-54zA" target="_Q9vb0PZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_CEONZPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CEONZfZnEemHq-FDL-54zA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CEONZvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CEONZ_ZnEemHq-FDL-54zA" x="6" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CEONaPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CEONafZnEemHq-FDL-54zA" x="8" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CEONYfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CEONYvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CEONY_ZnEemHq-FDL-54zA" points="[7, -4, 0, 34]$[7, -38, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEONavZnEemHq-FDL-54zA" id="(0.3442028985507246,0.058823529411764705)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEONa_ZnEemHq-FDL-54zA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Cfcw0PZnEemHq-FDL-54zA" type="4001" element="_CfU1APZnEemHq-FDL-54zA" source="_Q9vb0PZmEemHq-FDL-54zA" target="_SvOnkPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_Cfcw1PZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cfcw1fZnEemHq-FDL-54zA" x="10" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Cfcw1vZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cfcw1_ZnEemHq-FDL-54zA" x="8" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Cfcw2PZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cfcw2fZnEemHq-FDL-54zA" y="40"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Cfcw0fZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Cfcw0vZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cfcw0_ZnEemHq-FDL-54zA" points="[0, 0, -40, 0]$[40, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cfcw2vZnEemHq-FDL-54zA" id="(1.0,0.36764705882352944)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cfcw2_ZnEemHq-FDL-54zA" id="(0.0,0.35294117647058826)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_C3UeQPZnEemHq-FDL-54zA" type="4001" element="_C3MicPZnEemHq-FDL-54zA" source="_UWGewPZmEemHq-FDL-54zA" target="_6jV14PZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_C3VFUPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3VFUfZnEemHq-FDL-54zA" x="1" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_C3VFUvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3VFU_ZnEemHq-FDL-54zA" x="2" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_C3VFVPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3VFVfZnEemHq-FDL-54zA" x="1" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_C3UeQfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_C3UeQvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C3UeQ_ZnEemHq-FDL-54zA" points="[-2, -8, 0, 47]$[-2, -56, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3VFVvZnEemHq-FDL-54zA" id="(0.32653061224489793,0.11764705882352941)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C3VFV_ZnEemHq-FDL-54zA" id="(0.45454545454545453,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_E611MPZnEemHq-FDL-54zA" type="4001" element="_E6vukPZnEemHq-FDL-54zA" source="_WYB6QPZmEemHq-FDL-54zA" target="_y6cx4PZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_E611NPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E611NfZnEemHq-FDL-54zA" x="-2" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E611NvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E611N_ZnEemHq-FDL-54zA" x="-8" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E611OPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E611OfZnEemHq-FDL-54zA" x="-11" y="16"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_E611MfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_E611MvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E611M_ZnEemHq-FDL-54zA" points="[0, 0, -6, -143]$[6, 143, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E611OvZnEemHq-FDL-54zA" id="(0.5067567567567568,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E611O_ZnEemHq-FDL-54zA" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UHDgsPZnEemHq-FDL-54zA" type="4001" element="_UG8L8PZnEemHq-FDL-54zA" source="_SvOnkPZmEemHq-FDL-54zA" target="_1PdhcPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_UHEHwPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UHEHwfZnEemHq-FDL-54zA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UHEHwvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UHEHw_ZnEemHq-FDL-54zA" x="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UHEHxPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UHEHxfZnEemHq-FDL-54zA" x="40"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UHDgsfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UHDgsvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UHDgs_ZnEemHq-FDL-54zA" points="[-9, 0, 203, -194]$[-9, 130, 203, -64]$[-212, 130, 0, -64]$[-212, 194, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UHEHxvZnEemHq-FDL-54zA" id="(0.3716216216216216,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UHEHx_ZnEemHq-FDL-54zA" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WNBusPZnEemHq-FDL-54zA" type="4001" element="_WM7BAPZnEemHq-FDL-54zA" source="_1PdhcPZmEemHq-FDL-54zA" target="_YQFoEPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_WNCVwPZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WNCVwfZnEemHq-FDL-54zA" x="1" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WNCVwvZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WNCVw_ZnEemHq-FDL-54zA" x="-4" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WNCVxPZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WNCVxfZnEemHq-FDL-54zA" x="-2" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WNBusfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WNBusvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WNBus_ZnEemHq-FDL-54zA" points="[7, -2, -77, 0]$[84, -2, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNCVxvZnEemHq-FDL-54zA" id="(0.8666666666666667,0.543859649122807)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WNCVx_ZnEemHq-FDL-54zA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_YMnA0PZnEemHq-FDL-54zA" type="4001" element="_YMhhQPZnEemHq-FDL-54zA" source="_YQFoEPZmEemHq-FDL-54zA" target="_W4qssPZnEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_YMnA1PZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YMnA1fZnEemHq-FDL-54zA" x="-12" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YMnA1vZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YMnA1_ZnEemHq-FDL-54zA" x="5" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YMnA2PZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YMnA2fZnEemHq-FDL-54zA" x="6" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_YMnA0fZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YMnA0vZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YMnA0_ZnEemHq-FDL-54zA" points="[1, 11, 0, -48]$[1, 45, 0, -14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YMnA2vZnEemHq-FDL-54zA" id="(0.4897959183673469,0.8382352941176471)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YMnA2_ZnEemHq-FDL-54zA" id="(0.559322033898305,0.2413793103448276)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a0mWwPZnEemHq-FDL-54zA" type="4001" element="_a0g3MPZnEemHq-FDL-54zA" source="_W4qssPZnEemHq-FDL-54zA" target="_dN3wsPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_a0m90PZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0m90fZnEemHq-FDL-54zA" x="-95" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a0nk4PZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0nk4fZnEemHq-FDL-54zA" x="-11" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a0nk4vZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0nk4_ZnEemHq-FDL-54zA" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a0mWwfZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a0mWwvZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a0mWw_ZnEemHq-FDL-54zA" points="[-1, 0, -161, 69]$[170, 0, 10, 69]$[170, -69, 10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a0nk5PZnEemHq-FDL-54zA" id="(1.0,0.603448275862069)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a0nk5fZnEemHq-FDL-54zA" id="(0.40540540540540543,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_b9Zx4PZnEemHq-FDL-54zA" type="4001" element="_b9USUPZnEemHq-FDL-54zA" source="_dN3wsPZmEemHq-FDL-54zA" target="_UWGewPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_b9Zx5PZnEemHq-FDL-54zA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9Zx5fZnEemHq-FDL-54zA" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b9aY8PZnEemHq-FDL-54zA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9aY8fZnEemHq-FDL-54zA" x="3" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b9aY8vZnEemHq-FDL-54zA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9aY8_ZnEemHq-FDL-54zA" x="2" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_b9Zx4fZnEemHq-FDL-54zA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_b9Zx4vZnEemHq-FDL-54zA" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b9Zx4_ZnEemHq-FDL-54zA" points="[-1, -14, 0, 93]$[-1, -107, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9aY9PZnEemHq-FDL-54zA" id="(0.5733333333333334,0.21428571428571427)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9aY9fZnEemHq-FDL-54zA" id="(0.5405405405405406,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vodwVK2sEeyIsObrBcv8Ew" type="4001" element="_voT_PK2sEeyIsObrBcv8Ew" source="_K1sfgPZmEemHq-FDL-54zA" target="_szPPpq2sEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_vodwWK2sEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vodwWa2sEeyIsObrBcv8Ew" x="10" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vodwWq2sEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vodwW62sEeyIsObrBcv8Ew" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vodwXK2sEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vodwXa2sEeyIsObrBcv8Ew" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vodwVa2sEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vodwVq2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vodwV62sEeyIsObrBcv8Ew" points="[0, 0, -26, 0]$[26, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vodwXq2sEeyIsObrBcv8Ew" id="(1.0,0.4852941176470588)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vodwX62sEeyIsObrBcv8Ew" id="(0.0,0.49122807017543857)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_xSGnoK2sEeyIsObrBcv8Ew" type="4001" element="_xR82kK2sEeyIsObrBcv8Ew" source="_szPPpq2sEeyIsObrBcv8Ew" target="_OYAIoPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_xSGnpK2sEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSGnpa2sEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xSGnpq2sEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSGnp62sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xSGnqK2sEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSGnqa2sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_xSGnoa2sEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_xSGnoq2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xSGno62sEeyIsObrBcv8Ew" points="[0, 0, -31, 0]$[31, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xSGnqq2sEeyIsObrBcv8Ew" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xSGnq62sEeyIsObrBcv8Ew" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4yoaIK2sEeyIsObrBcv8Ew" type="4001" element="_4yeoxK2sEeyIsObrBcv8Ew" source="_SvOnkPZmEemHq-FDL-54zA" target="_1Hwq3a2sEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_4yoaJK2sEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yoaJa2sEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4yoaJq2sEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yoaJ62sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4yoaKK2sEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yoaKa2sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4yoaIa2sEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4yoaIq2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4yoaI62sEeyIsObrBcv8Ew" points="[0, 0, 0, -39]$[0, 39, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4yoaKq2sEeyIsObrBcv8Ew" id="(0.52,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4yoaK62sEeyIsObrBcv8Ew" id="(0.35,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5ub7Bq2sEeyIsObrBcv8Ew" type="4001" element="_5uSwyK2sEeyIsObrBcv8Ew" source="_1Hwq3a2sEeyIsObrBcv8Ew" target="_UWGewPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_5ub7Cq2sEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ub7C62sEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5ub7DK2sEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ub7Da2sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5ub7Dq2sEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ub7D62sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5ub7B62sEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5ub7CK2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ub7Ca2sEeyIsObrBcv8Ew" points="[0, 0, -31, 0]$[31, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ub7EK2sEeyIsObrBcv8Ew" id="(1.0,0.40350877192982454)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5ub7Ea2sEeyIsObrBcv8Ew" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_-tNiMq2sEeyIsObrBcv8Ew" type="4001" element="_-tEXsK2sEeyIsObrBcv8Ew" source="_K1sfgPZmEemHq-FDL-54zA" target="_8eRk4K2sEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_-tNiNq2sEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-tNiN62sEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-tNiOK2sEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-tNiOa2sEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-tNiOq2sEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-tNiO62sEeyIsObrBcv8Ew" x="40"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-tNiM62sEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-tNiNK2sEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-tNiNa2sEeyIsObrBcv8Ew" points="[-8, 0, 189, -121]$[-8, 28, 189, -93]$[-197, 28, 0, -93]$[-197, 121, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-tNiPK2sEeyIsObrBcv8Ew" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-tNiPa2sEeyIsObrBcv8Ew" id="(0.4666666666666667,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_BXRUIK2tEeyIsObrBcv8Ew" type="4001" element="_BXIKbK2tEeyIsObrBcv8Ew" source="_8eRk4K2sEeyIsObrBcv8Ew" target="_WYB6QPZmEemHq-FDL-54zA">
+          <children xmi:type="notation:Node" xmi:id="_BXRUJK2tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXRUJa2tEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BXRUJq2tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXRUJ62tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BXRUKK2tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXRUKa2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BXRUIa2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_BXRUIq2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BXRUI62tEeyIsObrBcv8Ew" points="[0, 0, -24, 0]$[24, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BXRUKq2tEeyIsObrBcv8Ew" id="(1.0,0.5087719298245614)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BXRUK62tEeyIsObrBcv8Ew" id="(0.0,0.5072463768115942)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Lh-NkK2tEeyIsObrBcv8Ew" type="4001" element="_Lh0c0K2tEeyIsObrBcv8Ew" source="_dN3wsPZmEemHq-FDL-54zA" target="_IFHsy62tEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_Lh-NlK2tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lh-Nla2tEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lh-Nlq2tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lh-Nl62tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lh-NmK2tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lh-Nma2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Lh-Nka2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Lh-Nkq2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lh-Nk62tEeyIsObrBcv8Ew" points="[0, 0, -47, 0]$[47, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lh-Nmq2tEeyIsObrBcv8Ew" id="(1.0,0.5735294117647058)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lh-Nm62tEeyIsObrBcv8Ew" id="(0.0,0.49122807017543857)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_W8VY9a2tEeyIsObrBcv8Ew" type="4001" element="_W8VYUK2tEeyIsObrBcv8Ew" source="_W4qssPZnEemHq-FDL-54zA" target="_TGDDna2tEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_W8VY-a2tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8VY-q2tEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W8VY-62tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8VY_K2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W8VY_a2tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8VY_q2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W8VY9q2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W8VY962tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W8VY-K2tEeyIsObrBcv8Ew" points="[0, 0, 158, 0]$[-158, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W8VY_62tEeyIsObrBcv8Ew" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W8VZAK2tEeyIsObrBcv8Ew" id="(1.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XlDk8K2tEeyIsObrBcv8Ew" type="4001" element="_Xk_TjK2tEeyIsObrBcv8Ew" source="_TGDDna2tEeyIsObrBcv8Ew" target="_szPPpq2sEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_XlDk9K2tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XlDk9a2tEeyIsObrBcv8Ew" x="96" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XlDk9q2tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XlDk962tEeyIsObrBcv8Ew" x="163" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XlDk-K2tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XlDk-a2tEeyIsObrBcv8Ew" x="30" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XlDk8a2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XlDk8q2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XlDk862tEeyIsObrBcv8Ew" points="[0, -11, 22, 190]$[0, -201, 22, 0]$[0, -202, 22, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XlDk-q2tEeyIsObrBcv8Ew" id="(0.13872832369942195,0.16176470588235295)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XlDk-62tEeyIsObrBcv8Ew" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_cwDDIK2tEeyIsObrBcv8Ew" type="4001" element="_cv55QK2tEeyIsObrBcv8Ew" source="_fE_qYPZmEemHq-FDL-54zA" target="_szPPpq2sEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_cwDDJK2tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cwDDJa2tEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cwDDJq2tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cwDDJ62tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cwDDKK2tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cwDDKa2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_cwDDIa2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_cwDDIq2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cwDDI62tEeyIsObrBcv8Ew" points="[0, 0, 0, 328]$[0, -328, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cwDDKq2tEeyIsObrBcv8Ew" id="(0.6363636363636364,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cwDDK62tEeyIsObrBcv8Ew" id="(0.23333333333333334,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_hNEB862tEeyIsObrBcv8Ew" type="4001" element="_hNEBRK2tEeyIsObrBcv8Ew" source="_fE_qYPZmEemHq-FDL-54zA" target="_etwtp62tEeyIsObrBcv8Ew">
+          <children xmi:type="notation:Node" xmi:id="_hNEB962tEeyIsObrBcv8Ew" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hNEB-K2tEeyIsObrBcv8Ew" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hNEB-a2tEeyIsObrBcv8Ew" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hNEB-q2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hNEB-62tEeyIsObrBcv8Ew" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hNEB_K2tEeyIsObrBcv8Ew" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_hNEB9K2tEeyIsObrBcv8Ew"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_hNEB9a2tEeyIsObrBcv8Ew" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hNEB9q2tEeyIsObrBcv8Ew" points="[0, 0, -45, 0]$[45, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hNEB_a2tEeyIsObrBcv8Ew" id="(1.0,0.5735294117647058)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hNEB_q2tEeyIsObrBcv8Ew" id="(0.0,0.49122807017543857)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_uR02YPZlEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Swimlane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane"/>
+      <semanticElements xmi:type="bpmn:Swimlane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_uR-AUPZlEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v_NlQPZlEemHq-FDL-54zA" name="Student">
+        <target xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0"/>
+        <semanticElements xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_z0-V4PZlEemHq-FDL-54zA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6i3xQPZlEemHq-FDL-54zA" name="Enrrols in undergraduate thesis project" outgoingEdges="__Xp5cPZmEemHq-FDL-54zA" incomingEdges="_-_lXsPZmEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_8uDPYPZlEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_D4YvIPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_EpbKgPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_HwJD0PZmEemHq-FDL-54zA" name="Sees the list of tutors and projects" outgoingEdges="__7xTIPZmEemHq-FDL-54zA" incomingEdges="__Xp5cPZmEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_JnlGkPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_iFY5QPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_iuqfwPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_K1qDQPZmEemHq-FDL-54zA" name="Chooses tutor and project" outgoingEdges="_voT_PK2sEeyIsObrBcv8Ew _-tEXsK2sEeyIsObrBcv8Ew" incomingEdges="__7xTIPZmEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MC22MPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_jrRR8PZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lnE3UPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_OX9FUPZmEemHq-FDL-54zA" name="Carries out his undergraduate thesis" outgoingEdges="_CEEcYPZnEemHq-FDL-54zA" incomingEdges="_xR82kK2sEeyIsObrBcv8Ew">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_QY8FoPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_j6eyoPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_msZgoPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/manualtask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.3/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Q9sYgPZmEemHq-FDL-54zA" name="Uploads project document" outgoingEdges="_CfU1APZnEemHq-FDL-54zA" incomingEdges="_CEEcYPZnEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_SO46oPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_jzn8sPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_oVovUPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_SvMLUPZmEemHq-FDL-54zA" name="Request thesis defense" outgoingEdges="_UG8L8PZnEemHq-FDL-54zA _4yeoxK2sEeyIsObrBcv8Ew" incomingEdges="_CfU1APZnEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_T1j9gPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_j_lVEPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_j_lVEfZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/send.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.0/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UWECgPZmEemHq-FDL-54zA" name="Carries out thesis defense" outgoingEdges="_C3MicPZnEemHq-FDL-54zA" incomingEdges="_b9USUPZnEemHq-FDL-54zA _5uSwyK2sEeyIsObrBcv8Ew">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VjISkPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_kKb6MPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qc4vsPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/manualtask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.3/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_3-laIPZmEemHq-FDL-54zA" outgoingEdges="_-_lXsPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:HighLevel" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.7"/>
+          <semanticElements xmi:type="bpmn:HighLevel" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.7"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_3-laIfZmEemHq-FDL-54zA" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Initial/HighLevel/simpleX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='InitialHighLevelEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='InitialHighLevelEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_6jSykPZmEemHq-FDL-54zA" incomingEdges="_C3MicPZnEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.8"/>
+          <semanticElements xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.8"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7owl0PZmEemHq-FDL-54zA" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Final/finalX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']/@conditionnalStyles.8/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_szGFmq2sEeyIsObrBcv8Ew" outgoingEdges="_xR82kK2sEeyIsObrBcv8Ew" incomingEdges="_voT_PK2sEeyIsObrBcv8Ew _Xk_TjK2tEeyIsObrBcv8Ew _cv55QK2tEeyIsObrBcv8Ew" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.9"/>
+          <semanticElements xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.9"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_szGFm62sEeyIsObrBcv8Ew" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Intermediate/Boundary/messageX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_1Hwqeq2sEeyIsObrBcv8Ew" outgoingEdges="_5uSwyK2sEeyIsObrBcv8Ew" incomingEdges="_4yeoxK2sEeyIsObrBcv8Ew" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.10"/>
+          <semanticElements xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.10"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1Hwqe62sEeyIsObrBcv8Ew" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Intermediate/Boundary/messageX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xHMhAPZlEemHq-FDL-54zA" name="Supervisor">
+        <target xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1"/>
+        <semanticElements xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0ludYPZlEemHq-FDL-54zA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_WYAFEPZmEemHq-FDL-54zA" name="Request project registration" outgoingEdges="_E6vukPZnEemHq-FDL-54zA" incomingEdges="_BXIKbK2tEeyIsObrBcv8Ew">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XcExMPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_kjQp4PZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_kjQp4fZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/send.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.0/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_YQCkwPZmEemHq-FDL-54zA" name="Authorizes thesis defense" outgoingEdges="_YMhhQPZnEemHq-FDL-54zA" incomingEdges="_WM7BAPZnEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_aZrx0PZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_kV7_kPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_rqRv4PZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dN0tYPZmEemHq-FDL-54zA" name="Proposes committe" outgoingEdges="_b9USUPZnEemHq-FDL-54zA _Lh0c0K2tEeyIsObrBcv8Ew" incomingEdges="_a0g3MPZnEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_egE_cPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_kQfe4PZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_s35ZkPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_1PbsQPZmEemHq-FDL-54zA" outgoingEdges="_WM7BAPZnEemHq-FDL-54zA" incomingEdges="_UG8L8PZnEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Catch" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.3"/>
+          <semanticElements xmi:type="bpmn:Catch" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1PbsQfZmEemHq-FDL-54zA" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Intermediate/Catch/messageX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='IntermediateCatchEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='IntermediateCatchEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_W4l0MPZnEemHq-FDL-54zA" outgoingEdges="_a0g3MPZnEemHq-FDL-54zA _W8VYUK2tEeyIsObrBcv8Ew" incomingEdges="_YMhhQPZnEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Gateway" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4"/>
+          <semanticElements xmi:type="bpmn:Gateway" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_W4nCUPZnEemHq-FDL-54zA" showIcon="false" labelAlignment="LEFT" workspacePath="/my.project.design/description/icons/GatewayIcons/exclusiveX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='Gateway']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='Gateway']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_8eH0Hq2sEeyIsObrBcv8Ew" outgoingEdges="_BXIKbK2tEeyIsObrBcv8Ew" incomingEdges="_-tEXsK2sEeyIsObrBcv8Ew" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.5"/>
+          <semanticElements xmi:type="bpmn:Boundary" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.5"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_8eH0H62sEeyIsObrBcv8Ew" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Intermediate/Boundary/messageX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='BoundaryEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_IFHsaq2tEeyIsObrBcv8Ew" incomingEdges="_Lh0c0K2tEeyIsObrBcv8Ew" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.6"/>
+          <semanticElements xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.6"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_KetZ-62tEeyIsObrBcv8Ew" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Final/finalX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']/@conditionnalStyles.8/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_TGDDMq2tEeyIsObrBcv8Ew" name="Comunicates rejection" outgoingEdges="_Xk_TjK2tEeyIsObrBcv8Ew" incomingEdges="_W8VYUK2tEeyIsObrBcv8Ew">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.7"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.7"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VCStc62tEeyIsObrBcv8Ew" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_x39PkPZlEemHq-FDL-54zA" name="Unit of Undergraduate Thesis">
+        <target xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2"/>
+        <semanticElements xmi:type="bpmn:Lane" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2VqxAPZlEemHq-FDL-54zA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_fE9OIPZmEemHq-FDL-54zA" name="Validates registration" outgoingEdges="_cv55QK2tEeyIsObrBcv8Ew _hNEBRK2tEeyIsObrBcv8Ew" incomingEdges="_A4LRAPZnEemHq-FDL-54zA">
+          <target xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0"/>
+          <semanticElements xmi:type="bpmn:Activity" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gENEoPZmEemHq-FDL-54zA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_keHEIPZmEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@nature"/>
+            <semanticElements xmi:type="bpmn:NatureActivityMaker" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@nature"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tnWgkPZmEemHq-FDL-54zA" showIcon="false" labelPosition="node" workspacePath="/my.project.design/description/icons/NatureActivityIcons/usertask.svg">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']/@conditionnalStyles.2/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subContainerMappings[name='Activity']/@subNodeMappings[name='NatureActivityMaker']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_y6a8sPZmEemHq-FDL-54zA" outgoingEdges="_A4LRAPZnEemHq-FDL-54zA" incomingEdges="_E6vukPZnEemHq-FDL-54zA" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Catch" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.1"/>
+          <semanticElements xmi:type="bpmn:Catch" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_y6a8sfZmEemHq-FDL-54zA" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Intermediate/Catch/messageX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='IntermediateCatchEvent']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='IntermediateCatchEvent']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_etwtRq2tEeyIsObrBcv8Ew" incomingEdges="_hNEBRK2tEeyIsObrBcv8Ew" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.2"/>
+          <semanticElements xmi:type="bpmn:Final" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_f-yQR62tEeyIsObrBcv8Ew" showIcon="false" workspacePath="/my.project.design/description/icons/EventIcons/Final/finalX.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']/@conditionnalStyles.8/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@containerMappings[name='Swimlane']/@subContainerMappings[name='Lane']/@subNodeMappings[name='FinalEvent']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-_lXsPZmEemHq-FDL-54zA" sourceNode="_3-laIPZmEemHq-FDL-54zA" targetNode="_6i3xQPZlEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.7/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.7/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-_pCEPZmEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-_pCEfZmEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__Xp5cPZmEemHq-FDL-54zA" sourceNode="_6i3xQPZlEemHq-FDL-54zA" targetNode="_HwJD0PZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.0/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__Xp5cfZmEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__Xp5cvZmEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__7xTIPZmEemHq-FDL-54zA" sourceNode="_HwJD0PZmEemHq-FDL-54zA" targetNode="_K1qDQPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.1/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__7xTIfZmEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__7xTIvZmEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_A4LRAPZnEemHq-FDL-54zA" sourceNode="_y6a8sPZmEemHq-FDL-54zA" targetNode="_fE9OIPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.1/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.1/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_A4LRAfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_A4LRAvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CEEcYPZnEemHq-FDL-54zA" sourceNode="_OX9FUPZmEemHq-FDL-54zA" targetNode="_Q9sYgPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.3/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CEEcYfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CEEcYvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CfU1APZnEemHq-FDL-54zA" sourceNode="_Q9sYgPZmEemHq-FDL-54zA" targetNode="_SvMLUPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.4/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CfU1AfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CfU1AvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_C3MicPZnEemHq-FDL-54zA" sourceNode="_UWECgPZmEemHq-FDL-54zA" targetNode="_6jSykPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.6/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_C3MicfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_C3MicvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_E6vukPZnEemHq-FDL-54zA" sourceNode="_WYAFEPZmEemHq-FDL-54zA" targetNode="_y6a8sPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.0/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_E6vukfZnEemHq-FDL-54zA" lineStyle="dot" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_E6vukvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UG8L8PZnEemHq-FDL-54zA" sourceNode="_SvMLUPZmEemHq-FDL-54zA" targetNode="_1PbsQPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UG8zAPZnEemHq-FDL-54zA" lineStyle="dot" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UG8zAfZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WM7BAPZnEemHq-FDL-54zA" sourceNode="_1PbsQPZmEemHq-FDL-54zA" targetNode="_YQCkwPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.3/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.3/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WM7BAfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WM7BAvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YMhhQPZnEemHq-FDL-54zA" sourceNode="_YQCkwPZmEemHq-FDL-54zA" targetNode="_W4l0MPZnEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.1/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_YMhhQfZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_YMhhQvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a0g3MPZnEemHq-FDL-54zA" name="YES" sourceNode="_W4l0MPZnEemHq-FDL-54zA" targetNode="_dN0tYPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a0heQPZnEemHq-FDL-54zA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a0heQfZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b9USUPZnEemHq-FDL-54zA" sourceNode="_dN0tYPZmEemHq-FDL-54zA" targetNode="_UWECgPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b9USUfZnEemHq-FDL-54zA" lineStyle="dot" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b9USUvZnEemHq-FDL-54zA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_voT_PK2sEeyIsObrBcv8Ew" sourceNode="_K1qDQPZmEemHq-FDL-54zA" targetNode="_szGFmq2sEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_voT_Pa2sEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_voT_Pq2sEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xR82kK2sEeyIsObrBcv8Ew" sourceNode="_szGFmq2sEeyIsObrBcv8Ew" targetNode="_OX9FUPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.9/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.9/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xR82ka2sEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_xR82kq2sEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4yeoxK2sEeyIsObrBcv8Ew" sourceNode="_SvMLUPZmEemHq-FDL-54zA" targetNode="_1Hwqeq2sEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@connection.1"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.5/@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4yeoxa2sEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4yeoxq2sEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5uSwyK2sEeyIsObrBcv8Ew" sourceNode="_1Hwqeq2sEeyIsObrBcv8Ew" targetNode="_UWECgPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.10/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.10/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5uSwya2sEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5uSwyq2sEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-tEXsK2sEeyIsObrBcv8Ew" sourceNode="_K1qDQPZmEemHq-FDL-54zA" targetNode="_8eH0Hq2sEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Association" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@connection.1"/>
+      <semanticElements xmi:type="bpmn:Association" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.0/@figure.2/@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-tEXsa2sEeyIsObrBcv8Ew" lineStyle="dot" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-tEXsq2sEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_BXIKbK2tEeyIsObrBcv8Ew" sourceNode="_8eH0Hq2sEeyIsObrBcv8Ew" targetNode="_WYAFEPZmEemHq-FDL-54zA">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.5/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.5/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_BXIKba2tEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_BXIKbq2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Lh0c0K2tEeyIsObrBcv8Ew" sourceNode="_dN0tYPZmEemHq-FDL-54zA" targetNode="_IFHsaq2tEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@connection.1"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.2/@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Lh0c0a2tEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Lh0c0q2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_W8VYUK2tEeyIsObrBcv8Ew" sourceNode="_W4l0MPZnEemHq-FDL-54zA" targetNode="_TGDDMq2tEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4/@connection.1"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.4/@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_W8VYUa2tEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_W8VYUq2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Xk_TjK2tEeyIsObrBcv8Ew" sourceNode="_TGDDMq2tEeyIsObrBcv8Ew" targetNode="_szGFmq2sEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.7/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.1/@figure.7/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Xk_Tja2tEeyIsObrBcv8Ew" lineStyle="dot" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Xk_Tjq2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_cv55QK2tEeyIsObrBcv8Ew" sourceNode="_fE9OIPZmEemHq-FDL-54zA" targetNode="_szGFmq2sEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@connection.0"/>
+      <semanticElements xmi:type="bpmn:Message" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@connection.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_cv55Qa2tEeyIsObrBcv8Ew" lineStyle="dot" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_cv55Qq2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Message']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_hNEBRK2tEeyIsObrBcv8Ew" sourceNode="_fE9OIPZmEemHq-FDL-54zA" targetNode="_etwtRq2tEeyIsObrBcv8Ew">
+      <target xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@connection.1"/>
+      <semanticElements xmi:type="bpmn:Secuence" href="finalThesis_models/bpmnExample.bpmn#//@swimlane/@lane.2/@figure.0/@connection.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_hNEBRa2tEeyIsObrBcv8Ew" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_hNEBRq2tEeyIsObrBcv8Ew" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer/@edgeMappings[name='Secuence']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_rUuME_ZlEemHq-FDL-54zA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/my.project.design/description/project.odesign#//@ownedViewpoints[name='BPMN']/@ownedRepresentations[name='BPMNDiagram']/@defaultLayer"/>
+    <target xmi:type="bpmn:BPMN" href="finalThesis_models/bpmnExample.bpmn#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e3value:E3ValueDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:e3value="http://www.kybele.es/elastic/models/e3value/1.0">
+  <hasE3ValueModels>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.0/@hasValueInterfaces.0/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.3/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.0"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.1/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.1/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.3"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.1/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.1/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.2"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.0/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.0/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.7"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.0/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.0/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.6"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.2/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.1/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.4"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.1/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.2/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.5"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.3/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.0/@hasValueInterfaces.0/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.1"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.4/@hasValueInterfaces.0/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.0/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.9"/>
+    <hasValueExchanges sourceValuePort="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.0/@hasValuePortOut" targetValuePort="//@hasE3ValueModels.0/@hasBusinessActors.4/@hasValueInterfaces.0/@hasValuePortIn" hasValueObject="//@hasE3ValueModels.0/@hasValueObjects.8"/>
+    <hasBusinessActors xsi:type="e3value:MarketSegment" name="Copy detection software company">
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasDependenceElements xsi:type="e3value:EndStimulus"/>
+    </hasBusinessActors>
+    <hasBusinessActors xsi:type="e3value:MarketSegment" name="Supervisor">
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+    </hasBusinessActors>
+    <hasBusinessActors xsi:type="e3value:MarketSegment" name="Student">
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasDependenceElements xsi:type="e3value:StartStimulus"/>
+      <hasDependenceElements xsi:type="e3value:OrJoin">
+        <hasInputPorts/>
+        <hasInputPorts/>
+        <hasOutputPort/>
+      </hasDependenceElements>
+    </hasBusinessActors>
+    <hasBusinessActors xsi:type="e3value:ElementaryActor" name="Unit of Undergraduate Thesis">
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasDependenceElements xsi:type="e3value:EndStimulus"/>
+      <hasDependenceElements xsi:type="e3value:OrJoin">
+        <hasInputPorts/>
+        <hasInputPorts/>
+        <hasOutputPort/>
+      </hasDependenceElements>
+    </hasBusinessActors>
+    <hasBusinessActors xsi:type="e3value:ElementaryActor" name="Corporate Applications Area">
+      <hasValueInterfaces>
+        <hasValuePortIn/>
+        <hasValuePortOut/>
+        <bindsResponsabilityElement/>
+      </hasValueInterfaces>
+      <hasDependenceElements xsi:type="e3value:EndStimulus"/>
+    </hasBusinessActors>
+    <hasValueObjects name="Project report" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.0"/>
+    <hasValueObjects name="Payment to copy detection software company" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.7"/>
+    <hasValueObjects name="Project management" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.2"/>
+    <hasValueObjects name="Scientific contribution" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.1"/>
+    <hasValueObjects name="Project management" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.5"/>
+    <hasValueObjects name="Students tuition" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.6"/>
+    <hasValueObjects name="Scientific contribution" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.4"/>
+    <hasValueObjects name="Tutorize project" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.3"/>
+    <hasValueObjects name="Payment to Corporate Applications Area" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.9"/>
+    <hasValueObjects name="Web app" inValueExchange="//@hasE3ValueModels.0/@hasValueExchanges.8"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasDependenceElements.0" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.2/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.0/@hasDependenceElements.0" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.0/@hasValueInterfaces.0/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasDependenceElements.0" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasDependenceElements.1/@hasOutputPort"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasDependenceElements.1" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.0/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasDependenceElements.1/@hasInputPorts.1" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.2/@hasValueInterfaces.1/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.0/@bindsResponsabilityElement" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.1/@hasValueInterfaces.1/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.1/@bindsResponsabilityElement" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasDependenceElements.1/@hasOutputPort"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasDependenceElements.1/@hasInputPorts.0" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.0/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasDependenceElements.1/@hasInputPorts.1" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.3/@hasValueInterfaces.3/@bindsResponsabilityElement"/>
+    <hasDependenceElements xsi:type="e3value:ConnectionElement" sourceDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.4/@hasValueInterfaces.0/@bindsResponsabilityElement" targetDependenceElement="//@hasE3ValueModels.0/@hasBusinessActors.4/@hasDependenceElements.0"/>
+  </hasE3ValueModels>
+</e3value:E3ValueDiagram>

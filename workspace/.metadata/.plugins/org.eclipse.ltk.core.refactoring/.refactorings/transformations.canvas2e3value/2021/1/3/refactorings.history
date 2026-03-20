@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;transformations.canvas2e3value/inputs/default.canvas&apos; to &apos;canvasExample.canvas&apos;" description="Rename resource &apos;default.canvas&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inputs/default.canvas" name="canvasExample.canvas" stamp="1611230198795" updateReferences="true"/>
+</session>

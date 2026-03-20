@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2007-2020 Eike Stepper (Loehne, Germany) and others.
+	All rights reserved. This program and the accompanying materials
+	are made available under the terms of the Eclipse Public License v1.0
+	which accompanies this distribution, and is available at
+	http://www.eclipse.org/legal/epl-v10.html
+
+	Contributors:
+	  Eike Stepper - initial API and implementation
+	  Christian W. Damus (CEA LIST) - bug 399306
+-->
+<feature
+      id="org.eclipse.emf.cdo"
+      label="%featureName"
+      version="4.12.0.v20201209-0738"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.emf.cdo"
+         download-size="995"
+         install-size="2327"
+         version="4.12.0.v20201209-0738"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.edit"
+         download-size="57"
+         install-size="110"
+         version="4.5.3.v20201104-1312"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.common"
+         download-size="652"
+         install-size="1412"
+         version="4.12.0.v20201125-0935"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.common.db"
+         download-size="37"
+         install-size="73"
+         version="3.1.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.net4j"
+         download-size="207"
+         install-size="480"
+         version="4.4.0.v20201125-0935"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.workspace"
+         download-size="78"
+         install-size="171"
+         version="4.3.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions"
+         download-size="91"
+         install-size="243"
+         version="4.4.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions.edit"
+         download-size="68"
+         install-size="147"
+         version="4.4.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.expressions.editor"
+         download-size="73"
+         install-size="140"
+         version="4.5.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security"
+         download-size="144"
+         install-size="409"
+         version="4.4.1.v20201125-0935"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.edit"
+         download-size="85"
+         install-size="175"
+         version="4.5.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.editor"
+         download-size="69"
+         install-size="134"
+         version="4.4.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.security.ui"
+         download-size="138"
+         install-size="291"
+         version="4.5.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.admin"
+         download-size="41"
+         install-size="79"
+         version="4.2.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui"
+         download-size="557"
+         install-size="1142"
+         version="4.9.0.v20201209-0738"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.shared"
+         download-size="100"
+         install-size="106"
+         version="4.5.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.admin"
+         download-size="56"
+         install-size="99"
+         version="4.3.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.team"
+         download-size="32"
+         install-size="58"
+         version="4.4.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.ui.jdt"
+         download-size="14"
+         install-size="19"
+         version="1.0.0.v20201104-1312"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer"
+         download-size="55"
+         install-size="103"
+         version="4.4.1.v20201104-1312"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.repository"
+         download-size="24"
+         install-size="36"
+         version="4.3.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.ui"
+         download-size="71"
+         install-size="136"
+         version="4.4.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.workspace"
+         download-size="21"
+         install-size="29"
+         version="4.3.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.transfer.workspace.ui"
+         download-size="15"
+         install-size="22"
+         version="4.4.0.v20201104-0919"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.explorer"
+         download-size="161"
+         install-size="348"
+         version="4.8.0.v20201209-0738"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.cdo.explorer.ui"
+         download-size="425"
+         install-size="859"
+         version="4.7.0.v20201209-0738"
+         unpack="false"/>
+
+</feature>

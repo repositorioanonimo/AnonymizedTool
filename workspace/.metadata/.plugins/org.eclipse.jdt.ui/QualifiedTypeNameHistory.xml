@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="prueba.views.EtlStandaloneExample"/>
+    <fullyQualifiedTypeName name="prueba.fileSelection.ResourceFileSelectionDialog"/>
+    <fullyQualifiedTypeName name="org.eclipse.ui.dialogs.ElementTreeSelectionDialog"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="es.kybele.innovaserv.dashboard.constants.InnovaservDashboardConstants"/>
+    <fullyQualifiedTypeName name="es.kybele.innovaserv.dashboard.etlLaunchers.EtlLauncher"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Button"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.events.SelectionListener"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.events.SelectionEvent"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Group"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.layout.RowLayout"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.layout.FillLayout"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+</qualifiedTypeNameHistroy>

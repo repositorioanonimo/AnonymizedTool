@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="BPMNDiagram"
+      label="BPMNDiagram"
+      version="1.0.0.201810291938">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="my.project.design"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201810291938"
+         unpack="false"/>
+
+   <plugin
+         id="BPMN.edit"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201810291938"/>
+
+   <plugin
+         id="BPMN"
+         download-size="0"
+         install-size="0"
+         version="0.1.0.201810291938"/>
+
+   <plugin
+         id="BPMN.editor"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201810291938"/>
+
+</feature>

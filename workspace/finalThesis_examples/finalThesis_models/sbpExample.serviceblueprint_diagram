@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:serviceblueprint="http://www.kybele.es/projects/elastic/models/serviceblueprint/0.1" xmi:id="_WpQ1EPVyEemz28D0p5P2Ag" type="Serviceblueprint" name="sbpExample.serviceblueprint_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_XxN7oPVyEemz28D0p5P2Ag" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XxN7pfVyEemz28D0p5P2Ag" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_ZJL0IPVyEemz28D0p5P2Ag" type="3001">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZJL0IfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_ZJL0IvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:PhysicalEvidence" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasPhysicalEvidences.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZJL0I_VyEemz28D0p5P2Ag" x="54" y="44"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XxN7pvVyEemz28D0p5P2Ag" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_bipl4PVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bipl4fVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_bipl4vVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bipl4_VyEemz28D0p5P2Ag" x="55" y="45"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_b0JlkPVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_b0KzsPVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_b0KzsfVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b0KzsvVyEemz28D0p5P2Ag" x="270" y="45"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_b-AsMPVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_b-AsMfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_b-B6UPVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b-B6UfVyEemz28D0p5P2Ag" x="438" y="38"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_cGAKkPVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_cGAKkfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_cGAKkvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cGAKk_VyEemz28D0p5P2Ag" x="652" y="44"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_cOk3wPVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_cOk3wfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_cOk3wvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cOk3w_VyEemz28D0p5P2Ag" x="861" y="47"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_cX82MPVyEemz28D0p5P2Ag" type="3002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_cX82MfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_cX82MvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:CustomerAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasCustomerActions.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cX82M_VyEemz28D0p5P2Ag" x="1087" y="54"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XxN7p_VyEemz28D0p5P2Ag" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_dl8TUPVyEemz28D0p5P2Ag" type="3003">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_dl86YPVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_dl86YfVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:OnStageEmployeeAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasOnStageEmployeeActions.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dl86YvVyEemz28D0p5P2Ag" x="881" y="41"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XxN7qPVyEemz28D0p5P2Ag" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_eULSUPVyEemz28D0p5P2Ag" type="3004">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_eULSUfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_eULSUvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:BackStageEmployeeAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eULSU_VyEemz28D0p5P2Ag" x="270" y="46"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_e5JnoPVyEemz28D0p5P2Ag" type="3004">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_e5JnofVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_e5JnovVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:BackStageEmployeeAction" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasBackStageEmployeeActions.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e5Jno_VyEemz28D0p5P2Ag" x="893" y="40"/>
+      </children>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XxN7qfVyEemz28D0p5P2Ag" type="7005">
+      <children xmi:type="notation:Node" xmi:id="_fsP4gPVyEemz28D0p5P2Ag" type="3005">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_fsP4gfVyEemz28D0p5P2Ag"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_fsP4gvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+        <element xmi:type="serviceblueprint:SupportProcess" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram/@hasSupportProcesses.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsP4g_VyEemz28D0p5P2Ag" x="244" y="44"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_XxN7ofVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XxN7ovVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_XxN7o_VyEemz28D0p5P2Ag"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintDiagram" href="sbpExample.serviceblueprint#//@hasServiceBlueprintDiagram"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxN7pPVyEemz28D0p5P2Ag" x="31" y="35" width="1400" height="801"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WpQ1EfVyEemz28D0p5P2Ag"/>
+  <element xmi:type="serviceblueprint:ServiceBlueprintModel" href="sbpExample.serviceblueprint#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_gXXSEPVyEemz28D0p5P2Ag" type="4001" source="_ZJL0IPVyEemz28D0p5P2Ag" target="_bipl4PVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_gXXSEfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gXXSEvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gXXSE_VyEemz28D0p5P2Ag" points="[9, 30, 0, -101]$[5, 124, -4, -7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gXa8cPVyEemz28D0p5P2Ag" id="(0.4,0.11666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gq1AoPVyEemz28D0p5P2Ag" type="4001" source="_bipl4PVyEemz28D0p5P2Ag" target="_b0JlkPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_gq1AofVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gq1AovVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gq1Ao_VyEemz28D0p5P2Ag" points="[50, -1, -152, -8]$[152, -1, -50, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_g4fpMPVyEemz28D0p5P2Ag" type="4001" source="_b0JlkPVyEemz28D0p5P2Ag" target="_eULSUPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_g4fpMfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_g4fpMvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g4fpM_VyEemz28D0p5P2Ag" points="[1, 30, -4, -292]$[11, 292, 6, -30]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_hMwpAPVyEemz28D0p5P2Ag" type="4001" source="_eULSUPVyEemz28D0p5P2Ag" target="_fsP4gPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_hMwpAfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hMwpAvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hMwpA_VyEemz28D0p5P2Ag" points="[-3, 30, -11, -173]$[-18, 173, -26, -30]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RLD0QKNUEeuwVKRi8aHlFA" id="(0.5123152709359606,0.189873417721519)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_hcTg4PVyEemz28D0p5P2Ag" type="4001" source="_fsP4gPVyEemz28D0p5P2Ag" target="_b-AsMPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_hcTg4fVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hcTg4vVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hcTg4_VyEemz28D0p5P2Ag" points="[68, 0, -124, 489]$[177, 0, -15, 489]$[191, -459, -1, 30]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1r_z0PZjEemHq-FDL-54zA" id="(0.3352272727272727,0.9367088607594937)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_h2QR8PVyEemz28D0p5P2Ag" type="4001" source="_b-AsMPVyEemz28D0p5P2Ag" target="_cGAKkPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_h2QR8fVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_h2QR8vVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h2QR8_VyEemz28D0p5P2Ag" points="[50, -5, -125, 10]$[158, -19, -17, -4]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h2RgEPVyEemz28D0p5P2Ag" id="(0.17,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_iDn_kPVyEemz28D0p5P2Ag" type="4001" source="_cGAKkPVyEemz28D0p5P2Ag" target="_cOk3wPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_iDn_kfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iDn_kvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iDn_k_VyEemz28D0p5P2Ag" points="[50, -7, -159, -10]$[159, -17, -50, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_iQUXwPVyEemz28D0p5P2Ag" type="4001" source="_cOk3wPVyEemz28D0p5P2Ag" target="_dl8TUPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_iQUXwfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iQUXwvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iQUXw_VyEemz28D0p5P2Ag" points="[7, 30, 0, -105]$[-3, 122, -10, -13]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iQU-0PVyEemz28D0p5P2Ag" id="(0.37,0.21666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_iaBtYPVyEemz28D0p5P2Ag" type="4001" source="_dl8TUPVyEemz28D0p5P2Ag" target="_e5JnoPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_iaBtYfVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iaBtYvVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iaBtY_VyEemz28D0p5P2Ag" points="[-5, 30, 0, -119]$[-14, 139, -9, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlRXgKNUEeuwVKRi8aHlFA" id="(0.38596491228070173,0.9666666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iaC7gPVyEemz28D0p5P2Ag" id="(0.33,0.16666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ikcNoPVyEemz28D0p5P2Ag" type="4001" source="_e5JnoPVyEemz28D0p5P2Ag" target="_cX82MPVyEemz28D0p5P2Ag">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_ikcNofVyEemz28D0p5P2Ag"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ikcNovVyEemz28D0p5P2Ag" fontName="Segoe UI"/>
+    <element xmi:type="serviceblueprint:ServiceBlueprintConnection" href="sbpExample.serviceblueprint#//@hasServiceBlueprintConnection.9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ikcNo_VyEemz28D0p5P2Ag" points="[50, 0, -144, 314]$[194, 0, 0, 314]$[194, -284, 0, 30]"/>
+  </edges>
+</notation:Diagram>
